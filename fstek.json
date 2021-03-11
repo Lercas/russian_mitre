@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--491cea28-0159-45df-b790-c315506e3e8e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "name": "ФСТЭК",
+            "identity_class": "organization",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "type": "identity",
+            "modified": "2021-02-01T00:00:00.000Z",
+            "created": "2021-02-01T00:00:00.000Z"
+        },
+        {
+            "type": "marking-definition",
+            "id": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-06-01T00:00:00Z",
+            "definition_type": "statement",
+            "definition": {
+                "statement": "Copyright 2015-2021, The MITRE Corporation. MITRE ATT&CK and ATT&CK are registered trademarks of The MITRE Corporation."
+            }
+        },
+        {
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "external_id": "TA0043",
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0043"
+                }
+            ],
+            "name": "Сбор информации о системах и сетях ",
+            "description": "The adversary is trying to gather information they can use to plan future operations.\n\nСбор информации о системах и сетях  consists of techniques that involve adversaries actively or passively gathering information that can be used to support targeting. Such information may include details of the victim organization, infrastructure, or staff/personnel. This information can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using gathered information to plan and execute Initial Access, to scope and prioritize post-compromise objectives, or to drive and lead further Сбор информации о системах и сетях  efforts.",
+            "id": "x-mitre-tactic--daa4cbb1-b4f4-4723-a824-7f1efd6e0592",
+            "type": "x-mitre-tactic",
+            "modified": "2020-10-18T02:04:50.842Z",
+            "created": "2020-10-02T14:48:41.809Z",
+            "x_mitre_shortname": "Сбор информации о системах и сетях "
+        },
+    ]
+}
