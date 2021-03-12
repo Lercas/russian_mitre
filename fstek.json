@@ -3192,7 +3192,8 @@
             "type": "attack-pattern",
             "id": "attack-pattern--6098765437652ere4q"
         },
-		{            "type": "attack-pattern",
+		{
+			"type": "attack-pattern",
             "name": "Использование внешних сервисов организации в сетях публичного доступа",
             "description": "Использование внешних сервисов организации в сетях публичного доступа (Интернет)Примеры: 1) доступ к веб-серверу, расположенному в сети  организации;2)  доступ  к интерфейсу электронной почты OutlookWebAccess (OWA) почтового сервера организации .",
             "kill_chain_phases": [
@@ -3222,6 +3223,186 @@
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
             "id": "attack-pattern--q45684234"
+        },
+		{
+            "type": "attack-pattern",
+            "name": "Использование  устройств, для  получения  первичного  доступа  к  системам  и компонентам внутри этого периметра",
+            "description": "Использование  устройств,  датчиков,  систем,  расположенных  на  периметре  или  вне периметра  физической  защиты  объекта,для  получения  первичного  доступа  к  системам  и компонентам внутри этого периметра.Примеры1) доступ к датчикам автономной системы дистанционного контроля давления газа участка газопровода;2) доступ к умному счетчику, расположенному на частном объекте, как к  части  инфраструктуры  поставщика  электроэнергии;3)  доступ  к  интерфейсу  управления камеры видеонаблюдения через сети ближнего действия.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "execution-ics"
+                }
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T807",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T2.2"
+                },
+                {
+                    "description": "Enterprise ATT&CK. (2018, January 11). Command-Line Interface. Retrieved May 17, 2018.",
+                    "source_name": "EAttack Command-Line Interface",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1059"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--q43758467"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--q534243134",
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--q46532298"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Эксплуатация уязвимостей сетевого оборудования для получения доступа при удаленной атаке",
+            "description": "Эксплуатация уязвимостей сетевого оборудования и средств защиты вычислительных сетей для получения доступа к компонентам систем и сетей при удаленной атаке.Пример: обход  межсетевого  экрана  путем  эксплуатации  уязвимостей  реализации  правил фильтрации.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "execution-ics"
+                }
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T807",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T2.3"
+                },
+            ],
+            "object_marking_refs": [
+                "marking-definition--x1346577te"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--r51245435734",
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--t143264375846yt"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Использование ошибок конфигурации сетевого оборудования для  получения  доступа при удаленной атаке",
+            "description": "Использование ошибок конфигурации сетевого оборудования и средств защиты, в том числе  слабых  паролей  и  паролей  по  умолчанию,  для  получения  доступа  к  компонентам систем и сетей при удаленной атаке.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "execution-ics"
+                }
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T807",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T2.4"
+                },
+                {
+                    "description": "Enterprise ATT&CK. (2018, January 11). Command-Line Interface. Retrieved May 17, 2018.",
+                    "source_name": "EAttack Command-Line Interface",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1059"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3465red"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--12354675tr7",
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--23456ueryh"
+        },
+		{
+            "type": "attack-pattern",
+            "name": "Эксплуатация уязвимостей компонентов систем и сетей при удаленной или локальной атаке",
+            "description": "Эксплуатация уязвимостей компонентов систем и сетей при удаленной или локальной атаке.Примеры: 1) эксплуатация уязвимостей веб-сервера с целью выполнения произвольного кода в контексте этого сервера;2) эксплуатация уязвимостей операционной системыустройства человеко-машинного  интерфейса автоматизированной  системы  управленияс  целью внедрения  средств  получения  вводимых  на  этомустройстве  паролей  доступа;3) эксплуатация уязвимостей браузера вредоносными скриптами при посещении пользователем вредоносного или скомпрометированного веб-сайта.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "execution-ics"
+                }
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T807",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T2.5"
+                },
+                {
+                    "description": "Enterprise ATT&CK. (2018, January 11). Command-Line Interface. Retrieved May 17, 2018.",
+                    "source_name": "EAttack Command-Line Interface",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1059"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa123154"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78wqtwer3",
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--24a9251248"
+        },
+		{
+            "type": "attack-pattern",
+            "name": "Использование  недокументированных  возможностей программного  обеспечения",
+            "description": "Использование недокументированных возможностей программного обеспечения сервисов, приложений, оборудования, включая использование отладочных интерфейсов, программных,программно-аппаратных закладок.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "execution-ics"
+                }
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T807",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T2.6"
+                },
+                {
+                    "description": "Enterprise ATT&CK. (2018, January 11). Command-Line Interface. Retrieved May 17, 2018.",
+                    "source_name": "EAttack Command-Line Interface",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1059"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa123155"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78wqtwer4",
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--24a9251249"
         },
         {
             "type": "attack-pattern",
