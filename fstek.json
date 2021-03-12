@@ -314,16 +314,16 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa42a846"
+                "marking-definition--134654527623"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5",
+            "created_by_ref": "identity--1325634512",
             "x_mitre_data_sources": [
                 "Alarm history"
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--a8cfd474"
+            "id": "attack-pattern--45686534"
         },
         {
             "type": "attack-pattern",
@@ -348,10 +348,10 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa123151"
+                "marking-definition--43758467"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78wqtwerw",
+            "created_by_ref": "identity--456876965",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -360,7 +360,7 @@
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--24a9251245"
+            "id": "attack-pattern--546532298"
         },
 		{
             "type": "attack-pattern",
@@ -385,10 +385,10 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa123152"
+                "marking-definition--1346577te"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78wqtwer1",
+            "created_by_ref": "identity--1245435734",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -397,7 +397,7 @@
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--24a9251246"
+            "id": "attack-pattern--143264375846yt"
         },
 		{
             "type": "attack-pattern",
@@ -422,10 +422,10 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa123153"
+                "marking-definition--3465red"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78wqtwer2",
+            "created_by_ref": "identity--12354675tr7",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -434,7 +434,7 @@
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--24a92512487"
+            "id": "attack-pattern--23456ueryh"
         },
 		{
             "type": "attack-pattern",
@@ -592,94 +592,6 @@
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
             "id": "attack-pattern--d67adac8-e3b9-44f9-9e6d-6c2a7d69dbe4"
-        },
-        {
-            "type": "attack-pattern",
-            "name": "Control Device Identification",
-            "description": "Adversaries may perform control device identification to determine the make and model of a target device. Management software and device APIs may be utilized by the adversary to gain this information. By identifying and obtaining device specifics, the adversary may be able to determine device vulnerabilities. This device information can also be used to understand device functionality and inform the decision to target the environment.",
-            "kill_chain_phases": [
-                {
-                    "kill_chain_name": "mitre-ics-attack",
-                    "phase_name": "discovery-ics"
-                }
-            ],
-            "x_mitre_platforms": [
-                "Windows",
-                "Field Controller/RTU/PLC/IED"
-            ],
-            "external_references": [
-                {
-                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T808",
-                    "source_name": "mitre-ics-attack",
-                    "external_id": "T0808"
-                }
-            ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_data_sources": [
-                "Network protocol analysis",
-                "Packet capture"
-            ],
-            "modified": "2020-05-21T17:43:26.506Z",
-            "type": "attack-pattern",
-            "id": "attack-pattern--abb0a255-eb9c-48d0-8f5c-874bb84c0e45"
-        },
-        {
-            "type": "attack-pattern",
-            "name": "Damage to Property",
-            "description": "Adversaries may cause damage and destruction of property to infrastructure, equipment, and the surrounding environment when attacking control systems. This technique may result in device and operational equipment breakdown, or represent tangential damage from other techniques used in an attack. Depending on the severity of physical damage and disruption caused to control processes and systems, this technique may result in <span class=\"smw-format list-format \"><span class=\"smw-row\"><span class=\"smw-field\"><span class=\"smw-value\">Loss of Safety</span></span></span></span>. Operations that result in <span class=\"smw-format list-format \"><span class=\"smw-row\"><span class=\"smw-field\"><span class=\"smw-value\">Loss of Control</span></span></span></span> may also cause damage to property, which may be directly or indirectly motivated by an adversary seeking to cause impact in the form of <span class=\"smw-format list-format \"><span class=\"smw-row\"><span class=\"smw-field\"><span class=\"smw-value\">Loss of Productivity and Revenue</span></span></span></span>. \n\nThe German Federal Office for Information Security (BSI) reported a targeted attack on a steel mill under an incidents affecting business section of its 2014 IT Security Report. (Citation: German Steel Mill - German Federal Office for Information Security - 2014) These targeted attacks affected industrial operations and resulted in breakdowns of control system components and even entire installations. As a result of these breakdowns, massive impact and damage resulted from the uncontrolled shutdown of a blast furnace.\n\nIn the Maroochy Attack, Vitek Boden gained remote computer access to the control system and altered data so that whatever function should have occurred at affected pumping stations did not occur or occurred in a different way. This ultimately led to 800,000 liters of raw sewage being spilled out into the community. The raw sewage affected local parks, rivers, and even a local hotel. This resulted in harm to marine life and produced a sickening stench from the community's now blackened rivers. (Citation: Maroochy - MITRE - 200808)\n\nA Polish student used a remote controller device to interface with the Lodz city tram system in Poland. (Citation: LodzTram-LondonReconnections-2017-12) (Citation: LodzTram-InHomelandSecurity-2008-02) (Citation: LodzTram-Schneier-2008-01) Using this remote, the student was able to capture and replay legitimate tram signals. This resulted in damage to impacted trams, people, and the surrounding property. Reportedly, four trams were derailed and were forced to make emergency stops. (Citation: LodzTram-InHomelandSecurity-2008-02) Commands issued by the student may have also resulted in tram collisions, causing harm to those on board and the environment outside. (Citation: LodzTram-Schneier-2008-01)",
-            "kill_chain_phases": [
-                {
-                    "kill_chain_name": "mitre-ics-attack",
-                    "phase_name": "impact-ics"
-                }
-            ],
-            "x_mitre_platforms": [
-                "Windows"
-            ],
-            "external_references": [
-                {
-                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T879",
-                    "source_name": "mitre-ics-attack",
-                    "external_id": "T0879"
-                },
-                {
-                    "description": "Marshall Abrams. (2008, July 23). Malicious Control System Cyber Security Attack Case Study\u2013 Maroochy Water Services, Australia. Retrieved March 27, 2018.",
-                    "source_name": "Maroochy - MITRE - 200808",
-                    "url": "https://www.mitre.org/sites/default/files/pdf/08%201145.pdf"
-                },
-                {
-                    "description": "John Bill. (2017, May 12). Hacked Cyber Security Railways. Retrieved October 17, 2019.",
-                    "source_name": "LodzTram-LondonReconnections-2017-12",
-                    "url": "https://www.londonreconnections.com/2017/hacked-cyber-security-railways/"
-                },
-                {
-                    "description": "Shelley Smith. (2008, February 12). Teen Hacker in Poland Plays Trains and Derails City Tram System. Retrieved October 17, 2019.",
-                    "source_name": "LodzTram-InHomelandSecurity-2008-02",
-                    "url": "https://inhomelandsecurity.com/teen%20hacker%20in%20poland%20plays%20tr/"
-                },
-                {
-                    "description": "Bruce Schneier. (2008, January 17). Hacking Polish Trams. Retrieved October 17, 2019.",
-                    "source_name": "LodzTram-Schneier-2008-01",
-                    "url": "https://www.schneier.com/blog/archives/2008/01/hacking%20the%20pol.html"
-                },
-                {
-                    "description": "Bundesamt f\u00fcr Sicherheit in der Informationstechnik (BSI) (German Federal Office for Information Security). (2014). Die Lage der IT-Sicherheit in Deutschland 2014 (The State of IT Security in Germany). Retrieved October 30, 2019.",
-                    "source_name": "German Steel Mill - German Federal Office for Information Security - 2014",
-                    "url": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Securitysituation/IT-Security-Situation-in-Germany-2014.pdf?%20blob=publicationFile&v=3"
-                }
-            ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "modified": "2020-05-21T17:43:26.506Z",
-            "type": "attack-pattern",
-            "id": "attack-pattern--83ebd22f-b401-4d59-8219-2294172cf916"
         },
         {
             "type": "attack-pattern",
