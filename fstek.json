@@ -8259,7 +8259,7 @@
                 {
                     "source_name": "mitre-ics-attack",
                     "url": "https://collaborate.mitre.org/attackics/index.php/Execution",
-                    "external_id": "T2"
+                    "external_id": "TA0104"
                 }
             ]
         },
