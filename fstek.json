@@ -3498,14 +3498,6 @@
                     "source_name": "mitre-ics-attack",
                     "external_id": "T1.9"
                 },
-                {
-                    "description": "Enterprise ATT&CK. (2019, October 25). Spearphishing Attachment. Retrieved October 25, 2019.",
-                    "source_name": "EAttack Spearphishing Attachment",
-                    "url": "https://attack.mitre.org/techniques/T1193/"
-                }
-            ],
-            "object_marking_refs": [
-                "marking-definition--65745674567"
             ],
             "created": "2020-04-21T17:43:26.506Z",
             "created_by_ref": "identity--123416523",
