@@ -3499,6 +3499,9 @@
                     "external_id": "T1.9"
                 },
             ],
+            "object_marking_refs": [
+                "marking-definition--65745674567"
+            ],
             "created": "2020-04-21T17:43:26.506Z",
             "created_by_ref": "identity--123416523",
             "modified": "2020-04-21T17:43:26.506Z",
