@@ -590,8 +590,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Data Historian Compromise",
-            "description": "Adversaries may compromise and gain control of a data historian to gain a foothold into the control system environment. Access to a data historian may be used to learn stored database archival and analysis information on the control system. A dual-homed data historian may provide adversaries an interface from the IT environment to the OT environment. \n\nDragos has released an updated analysis on CrashOverride that outlines the attack from the ICS network breach to payload delivery and execution.  (Citation: Industroyer - Dragos - 201810) The report summarized that CrashOverride represents a new application of malware, but relied on standard intrusion techniques. In particular, new artifacts include references to a Microsoft Windows Server 2003 host, with a SQL Server. Within the ICS environment, such a database server can act as a data historian. Dragos noted a device with this role should be \"expected to have extensive connections\" within the ICS environment. Adversary activity leveraged database capabilities to perform reconnaissance, including directory queries and network connectivity checks.\n\nPermissions Required: Administrator\n\nContributors: Joe Slowik - Dragos",
+            "name": "Сбор информации из публичных источников.",
+            "description": "официальный сайт (сайты) организации, СМИ, социальные сети, фотобанки, сайты поставщиков и вендоров, материалы конференций.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -977,8 +977,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Drive-by Compromise",
-            "description": "Adversaries may gain access to a system during a drive-by compromise, when a user visits a website as part of a regular browsing session.With this technique, the user's web browser is targeted and exploited simply by visiting the compromised website. \n\nThe adversary may target a specific community, such as trusted third party suppliers or other industry specific groups, which often visit the target website. This kind of targeted attack relies on a common interest, and is known as a strategic web compromise or watering hole attack. \n\nThe National Cyber Awareness System (NCAS) has issued a Technical Alert (TA) regarding Russian government cyber activity targeting critical infrastructure sectors. \n (Citation: Alert - CISA TA18-074A) Analysis by DHS and FBI has noted two distinct categories of victims in the Dragonfly campaign on the Western energy sector: staging and intended targets. The adversary targeted the less secure networks of staging targets, including trusted third-party suppliers and related peripheral organizations. Initial access to the intended targets used watering hole attacks to target process control, ICS, and critical infrastructure related trade publications and informational websites.",
+            "name": "Сбор информации о подключенных к публичным системам и сетям устройствах и их службах при помощи поисковых систем",
+            "description": "включая сбор конфигурационной информации компонентов систем и сетей, программного обеспечения сервисов и приложений.Пример: использование поисковой системы Shodan для получения информации об определенных моделях IP-камер видеонаблюдения с возможно уязвимыми версиями прошивок.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -14496,8 +14496,8 @@
         },
         {
             "type": "x-mitre-tactic",
-            "name": "Initial Access",
-            "description": "The adversary is trying to get into your ICS environment.\n\nInitial Access consists of techniques that adversaries may use as entry vectors to gain an initial foothold within an ICS environment. These techniques include compromising operational technology assets, IT resources in the OT network, and external remote services and websites. They may also target third party entities and users with privileged access. In particular, these initial access footholds may include devices and communication mechanisms with access to and privileges in both the IT and OT environments. IT resources in the OT environment are also potentially vulnerable to the same attacks as enterprise IT systems. Trusted third parties of concern may include vendors, maintenance personnel, engineers, external integrators, and other outside entities involved in expected ICS operations. Vendor maintained assets may include physical devices, software, and operational equipment. Initial access techniques may also leverage outside devices, such as radios, controllers, or removable media, to remotely interfere with and possibly infect OT operations.",
+            "name": "Сбор информации о системах и сетях",
+            "description": "Тактическая задача.\n\nнарушитель стремится получить любую техническую информацию, которая может оказаться полезной в ходе реализации угроз безопасности информации.",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17T00:14:20.652Z",
             "id": "x-mitre-tactic--69da72d2-f550-41c5-ab9e-e8255707f28a",
