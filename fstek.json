@@ -1475,7 +1475,7 @@
         },
         {
             "type": "attack-pattern",
-            "name": ". Сбор информации о пользователях, устройствах, приложениях, а также сбор конфигурационной информации",
+            "name": "Сбор информации о пользователях, устройствах, приложениях, а также сбор конфигурационной информации",
             "description": "Сбор информации о пользователях, устройствах, приложениях, а также сбор конфигурационной информации компонентов систем и сетей, программного обеспечения сервисов и приложений путем поиска и эксплуатации уязвимостей подключенных к сети устройств.Пример: эксплуатация уязвимости типа directory traversal публично доступного веб-сервера",
             "kill_chain_phases": [
                 {
@@ -2995,8 +2995,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Spearphishing Attachment",
-            "description": "Adversaries may use a spearphishing attachment, a variant of spearphishing, as a form of a social engineering attack against specific targets. Spearphishing attachments are different from other forms of spearphishing in that they employ malware attached to an email. All forms of spearphishing are electronically delivered and target a specific individual, company, or industry. In this scenario, adversaries attach a file to the spearphishing email and usually rely upon User Execution to gain execution and access. (Citation: EAttack Spearphishing Attachment)",
+            "name": "Сбор информации, предоставляемой DNS сервисами",
+            "description": "Сбор информации, предоставляемой DNS сервисами, включая DNS Hijacking.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -3014,7 +3014,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T865",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0865"
+                    "external_id": "T1.7"
                 },
                 {
                     "description": "Enterprise ATT&CK. (2019, October 25). Spearphishing Attachment. Retrieved October 25, 2019.",
@@ -3414,8 +3414,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Wireless Compromise",
-            "description": "Adversaries may perform wireless compromise as a method of gaining communications and unauthorized access to a wireless network. Access to a wireless network may be gained through the compromise of a wireless device. (Citation: ICSCorsair - Bolshev) (Citation: Hart - Bolshev) Adversaries may also utilize radios and other wireless communication devices on the same frequency as the wireless network. Wireless compromise can be done as an initial access vector from a remote distance.  \n\nA joint case study on the Maroochy Shire Water Services event examined the attack from a cyber security perspective.  (Citation: Maroochy - MITRE - 200808) The adversary disrupted Maroochy Shire's radio-controlled sewage system by driving around with stolen radio equipment and issuing commands with them. Boden used a two-way radio to communicate with and set the frequencies of Maroochy Shire's repeater stations. \n\nA Polish student used a modified TV remote controller to gain access to and control over the Lodz city tram system in Poland. (Citation: LodzTram-LondonReconnections-2017-12) (Citation: LodzTram-InHomelandSecurity-2008-02) The remote controller device allowed the student to interface with the tram\u2019s network to modify track settings and override operator control. The adversary may have accomplished this by aligning the controller to the frequency and amplitude of IR control protocol signals. (Citation: LodzTram-Schneier-2008-01) The controller then enabled initial access to the network, allowing the capture and replay of tram signals. (Citation: LodzTram-LondonReconnections-2017-12)",
+            "name": "Сбор  информации  о  пользователе  при  посещении  им  веб-сайта",
+            "description": "Сбор  информации  о  пользователе  при  посещении  им  веб-сайта,  в  том  числе  с использованием уязвимостей программы браузера и надстраиваемых модулей браузера",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -3429,7 +3429,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T860",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0860"
+                    "external_id": "T1.8"
                 },
                 {
                     "description": "Alexander Bolshev. (2014, March 11). S4x14: HART As An Attack Vector. Retrieved January 5, 2020.",
