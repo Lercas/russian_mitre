@@ -295,8 +295,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Change Program State",
-            "description": "Adversaries may attempt to change the state of the current program on a control device. Program state changes may be used to allow for another program to take over control or be loaded onto the device.",
+            "name": "спользование внешних сервисов организации в сетях публичного доступа",
+            "description": "Использование внешних сервисов организации в сетях публичного доступа (Интернет)Примеры:  1)  доступ  к  веб-серверу,  расположенному  в  сети  организации;2)  доступ  к интерфейсу электронной почты OutlookWebAccess (OWA) почтового сервера организации .",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -314,28 +314,25 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T875",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0875"
+                    "external_id": "T2.1"
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+                "marking-definition--fa42a846"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created_by_ref": "identity--c78cb6e5",
             "x_mitre_data_sources": [
-                "Alarm history",
-                "Sequential event recorder",
-                "Network protocol analysis",
-                "Packet capture"
+                "Alarm history"
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--a8cfd474-9358-464f-a169-9c6f099a8e8a"
+            "id": "attack-pattern--a8cfd474"
         },
         {
             "type": "attack-pattern",
-            "name": "Command-Line Interface",
-            "description": "Adversaries may utilize command-line interfaces (CLIs) to interact with systems and execute commands. CLIs provide a means of interacting with computer systems and are a common feature across many types of platforms and devices within control systems environments. (Citation: EAttack Command-Line Interface) Adversaries may also use CLIs to install and run new software, including malicious tools that may be installed over the course of an operation.\n\nCLIs are typically accessed locally, but can also be exposed via services, such as SSH, Telnet, and RDP.  Commands that are executed in the CLI execute with the current permissions level of the process running the terminal emulator, unless the command specifies a change in permissions context.\n\nMany controllers have CLI interfaces for management purposes.\n\nDetection: Command-line interface activities can be captured through proper logging of process execution with command-line arguments. This information can be useful in gaining additional insight to adversaries' actions through how they use native processes or custom tools.",
+            "name": "Использование  устройств, для  получения  первичного  доступа  к  системам  и компонентам внутри этого периметра",
+            "description": "Использование  устройств,  датчиков,  систем,  расположенных  на  периметре  или  вне периметра  физической  защиты  объекта,для  получения  первичного  доступа  к  системам  и компонентам внутри этого периметра.Примеры1) доступ к датчикам автономной системы дистанционного контроля давления газа участка газопровода;2) доступ к умному счетчику, расположенному на частном объекте, как к  части  инфраструктуры  поставщика  электроэнергии;3)  доступ  к  интерфейсу  управления камеры видеонаблюдения через сети ближнего действия.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -346,7 +343,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T807",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0807"
+                    "external_id": "T2.2"
                 },
                 {
                     "description": "Enterprise ATT&CK. (2018, January 11). Command-Line Interface. Retrieved May 17, 2018.",
@@ -355,22 +352,19 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+                "marking-definition--fa123151"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created_by_ref": "identity--c78wqtwerw",
             "x_mitre_platforms": [
                 "Windows"
             ],
             "x_mitre_data_sources": [
-                "Process monitoring",
-                "Process command-line parameters",
-                "Network protocol analysis",
-                "Packet capture"
+                "Process monitoring"
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--24a9253e-8948-4c98-b751-8e2aee53127c"
+            "id": "attack-pattern--24a9251245"
         },
         {
             "type": "attack-pattern",
@@ -1016,44 +1010,6 @@
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
             "id": "attack-pattern--7830cfcf-b268-4ac0-a69e-73c6affbae9a"
-        },
-        {
-            "type": "attack-pattern",
-            "name": "Пассивный сбор (прослушивание) информации о подключенных к сети устройствах ",
-            "description": "Пассивный сбор (прослушивание) информации о подключенных к сети устройствах с целью идентификации сетевых служб, типов и версий ПО этих служб и в некоторых случаях – идентификационной информации пользователей.",
-            "kill_chain_phases": [
-                {
-                    "kill_chain_name": "mitre-ics-attack",
-                    "phase_name": "initial-access-ics"
-                }
-            ],
-            "x_mitre_platforms": [
-                "Windows",
-                "Engineering Workstation"
-            ],
-            "external_references": [
-                {
-                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T818",
-                    "source_name": "mitre-ics-attack",
-                    "external_id": "T0818"
-                }
-            ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_data_sources": [
-                "File monitoring",
-                "API monitoring",
-                "Windows event logs"
-            ],
-            "x_mitre_contributors": [
-                "Joe Slowik - Dragos"
-            ],
-            "modified": "2020-05-21T17:43:26.506Z",
-            "type": "attack-pattern",
-            "id": "attack-pattern--d614a9cf-18eb-4800-81e4-ab8ddf0baa73"
         },
         {
             "type": "attack-pattern",
@@ -3045,6 +3001,41 @@
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
             "id": "attack-pattern--6098765434765werewq"
+        },
+		{
+		
+            "type": "attack-pattern",
+            "name": "Техники конкурентной разведки и промышленного шпионажа для сбора информации",
+            "description": "ехники конкурентной разведки и промышленного шпионажа для сбора информации о технологическом процессе, технологических установках, системах и ПО на предприятиях в автоматизированных  системах  управления  производственными  и  технологическими процессами, в том числе на критически важных объектах.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "initial-access-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T865",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T1.20"
+                },
+                {
+                    "description": "Enterprise ATT&CK. (2019, October 25). Spearphishing Attachment. Retrieved October 25, 2019.",
+                    "source_name": "EAttack Spearphishing Attachment",
+                    "url": "https://attack.mitre.org/techniques/T1193/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--5678111113386"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--823423513",
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--609876543165were1q"
         },
 		{
 		
@@ -14772,8 +14763,8 @@
         },
         {
             "type": "x-mitre-tactic",
-            "name": "Execution",
-            "description": "The adversary is trying to run malicious code.\n\nExecution consists of techniques that result in adversary-controlled code running on a local or remote system, device, or other asset. This execution may also rely on unknowing end users or the manipulation of device operating modes to run. Adversaries may infect remote targets with programmed executables or malicious project files that operate according to specified behavior and may alter expected device behavior in subtle ways. Commands for execution may also be issued from command-line interfaces, APIs, GUIs, or other available interfaces. Techniques that run malicious code may also be paired with techniques from other tactics, particularly to aid network [Discovery](https://collaborate.mitre.org/attackics/index.php/Discovery) and [Collection](https://collaborate.mitre.org/attackics/index.php/Collection), impact operations, and inhibit response functions.",
+            "name": "Получение  первоначального  доступа к компонентам систем и сетей",
+            "description": "Тактическая   задача:\n\n.Нарушитель, находясь вне инфраструктуры сети или системы, стремится получить доступ к любому  узлу  в  инфраструктуре  и использовать  его  как  плацдарм  для дальнейших действий.",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17T00:14:20.652Z",
             "id": "x-mitre-tactic--93bf9a8e-b14c-4587-b6d5-9efc7c12eb45",
@@ -14786,7 +14777,7 @@
                 {
                     "source_name": "mitre-ics-attack",
                     "url": "https://collaborate.mitre.org/attackics/index.php/Execution",
-                    "external_id": "TA0104"
+                    "external_id": "T2"
                 }
             ]
         },
