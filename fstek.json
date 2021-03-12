@@ -314,16 +314,16 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--134654527623"
+                "marking-definition--w1346545275623"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--1325634512",
+            "created_by_ref": "identity--q1324216q512",
             "x_mitre_data_sources": [
                 "Alarm history"
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--45686534"
+            "id": "attack-pattern--q45684234"
         },
         {
             "type": "attack-pattern",
@@ -348,10 +348,10 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--43758467"
+                "marking-definition--q43758467"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--456876965",
+            "created_by_ref": "identity--q534243134",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -360,7 +360,7 @@
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--546532298"
+            "id": "attack-pattern--q46532298"
         },
 		{
             "type": "attack-pattern",
@@ -378,17 +378,12 @@
                     "source_name": "mitre-ics-attack",
                     "external_id": "T2.3"
                 },
-                {
-                    "description": "Enterprise ATT&CK. (2018, January 11). Command-Line Interface. Retrieved May 17, 2018.",
-                    "source_name": "EAttack Command-Line Interface",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1059"
-                }
             ],
             "object_marking_refs": [
-                "marking-definition--1346577te"
+                "marking-definition--x1346577te"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--1245435734",
+            "created_by_ref": "identity--r51245435734",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -397,7 +392,7 @@
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--143264375846yt"
+            "id": "attack-pattern--t143264375846yt"
         },
         {
             "type": "attack-pattern",
