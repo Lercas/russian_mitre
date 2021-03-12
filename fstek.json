@@ -1364,8 +1364,7 @@
             "created_by_ref": "identity--q534243134",
             "x_mitre_platforms": [
                 "Windows"
-          
-		],
+				],
             "x_mitre_data_sources": [
                 "Process monitoring"
             ],
