@@ -1019,8 +1019,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Engineering Workstation Compromise",
-            "description": "Adversaries may compromise and gain control of an engineering workstation as an Initial Access technique into the control system environment. Access to an engineering workstation may occur as a result of remote access or by physical means, such as a person with privileged access or infection by removable media. A dual-homed engineering workstation may allow the adversary access into multiple networks. For example, unsegregated process control, safety system, or information system networks. \n\nAn Engineering Workstation is designed as a reliable computing platform that configures, maintains, and diagnoses control system equipment and applications. Compromise of an engineering workstation may provide access to and control of other control system applications and equipment. \n\nIn the Maroochy attack, the adversary utilized a computer, possibly stolen, with proprietary engineering software to communicate with a wastewater system.",
+            "name": "Пассивный сбор (прослушивание) информации о подключенных к сети устройствах ",
+            "description": "Пассивный сбор (прослушивание) информации о подключенных к сети устройствах с целью идентификации сетевых служб, типов и версий ПО этих служб и в некоторых случаях – идентификационной информации пользователей.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -1092,8 +1092,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Exploit Public-Facing Application",
-            "description": "Adversaries may attempt to exploit public-facing applications to leverage weaknesses on Internet-facing computer systems, programs, or assets in order to cause unintended or unexpected behavior. These public-facing applications may include user interfaces, software, data, or commands. In particular, a public-facing application in the IT environment may provide adversaries an interface into the OT environment. \n\nICS-CERT analysis has identified the probable initial infection vector for systems running GE\u2019s Cimplicity HMI with a direct connection to the Internet. \n (Citation: ICS CERT 14-281)",
+            "name": "Направленное сканирование при помощи специализированного программного обеспечения подключенных к сети устройств",
+            "description": "Направленное сканирование при помощи специализированного программного обеспечения подключенных к сети устройств с целью идентификации сетевых сервисов, типов и версий программного обеспечения этих сервисов, а также с целью получения конфигурационной информации компонентов систем и сетей, программного обеспечения сервисов и приложений.Пример: сканирование при помощи сканера nmap",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -1475,8 +1475,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Internet Accessible Device",
-            "description": "Adversaries may gain access into industrial environments directly through systems exposed to the internet for remote access rather than through External Remote Services. Minimal protections provided by these devices such as password authentication may be targeted and compromised. (Citation: Bowman Dam - ICS-CERT)\n\nIn the case of the Bowman dam incident, adversaries leveraged access to the dam control network through a cellular modem. Access to the device was protected by password authentication, although the application was vulnerable to brute forcing.   (Citation: Bowman Dam - wall street journal) (Citation: Bowman Dam - Times) (Citation: Bowman Dam - ICS-CERT)",
+            "name": ". Сбор информации о пользователях, устройствах, приложениях, а также сбор конфигурационной информации",
+            "description": "Сбор информации о пользователях, устройствах, приложениях, а также сбор конфигурационной информации компонентов систем и сетей, программного обеспечения сервисов и приложений путем поиска и эксплуатации уязвимостей подключенных к сети устройств.Пример: эксплуатация уязвимости типа directory traversal публично доступного веб-сервера",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -2626,8 +2626,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Replication Through Removable Media",
-            "description": "Adversaries may move onto systems, such as those separated from the enterprise network, by copying malware to removable media which is inserted into the control systems environment. The adversary may rely on unknowing trusted third parties, such as suppliers or contractors with access privileges, to introduce the removable media. This technique enables initial access to target devices that never connect to untrusted networks, but are physically accessible. \n\nOperators of the German nuclear power plant, Gundremmingen, discovered malware on a facility computer not connected to the internet.  (Citation: KGG-Company-Site)  (Citation: KGG-Trend Micro) The malware included Conficker and W32.Ramnit, which were also found on eighteen removable disk drives in the facility.  (Citation: KGG-Reuters)  (Citation: KGG-Softpedia)  (Citation: KGG-Science-Alert)  (Citation: KGG-Geek)  (Citation: KGG-Ars)  (Citation: KGG-Dark) The plant has since checked for infection and cleaned up more than 1,000 computers.  (Citation: KGG-BBC) An ESET researcher commented that internet disconnection does not guarantee system safety from infection or payload execution.  (Citation: KGG-ESET)",
+            "name": "Сбор информации о пользователях, устройствах, приложениях, авторизуемых сервисами вычислительной сети, путем перебора",
+            "description": "Пример: сбор информации о почтовых адресах при помощи directoryharvestattack на почтовые сервера",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
