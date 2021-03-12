@@ -3074,6 +3074,111 @@
             "type": "attack-pattern",
             "id": "attack-pattern--6098765434765werewq"
         },
+		{
+		
+            "type": "attack-pattern",
+            "name": "Сбор  информации, путем применения социальной инженерии",
+            "description": "Сбор  информации  о  пользователях,  устройствах,  приложениях,  внутренней информации о компонентах систем и сетей путем применения социальной инженерии, в том числе фишинга.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "initial-access-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T865",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T1.11"
+                },
+                {
+                    "description": "Enterprise ATT&CK. (2019, October 25). Spearphishing Attachment. Retrieved October 25, 2019.",
+                    "source_name": "EAttack Spearphishing Attachment",
+                    "url": "https://attack.mitre.org/techniques/T1193/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--567846523316"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--1234232613",
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--6098765434165were4q"
+        },
+		{
+		
+            "type": "attack-pattern",
+            "name": "Сбор  личной  идентификационной информации",
+            "description": "Сбор  личной  идентификационной информации  (идентификаторы  пользователей, устройств,  информация  об  идентификации  пользователей  сервисами,  приложениями, средствами удаленного доступа), в том числе сбор украденных личных данных сотрудников и подрядчиков на случай, если сотрудники/подрядчики используют одни и те же пароли на работе и за ее пределами.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "initial-access-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T865",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T1.12"
+                },
+                {
+                    "description": "Enterprise ATT&CK. (2019, October 25). Spearphishing Attachment. Retrieved October 25, 2019.",
+                    "source_name": "EAttack Spearphishing Attachment",
+                    "url": "https://attack.mitre.org/techniques/T1193/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--51846522316"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--1234232613",
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--60987654341652ere4q"
+        },
+		{
+		
+            "type": "attack-pattern",
+            "name": "Сбор  информации через получение доступа к системам физической безопасности.",
+            "description": "Сбор  информации через получение доступа к системам физической безопасности и видеонаблюдения.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "initial-access-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T865",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T1.13"
+                },
+                {
+                    "description": "Enterprise ATT&CK. (2019, October 25). Spearphishing Attachment. Retrieved October 25, 2019.",
+                    "source_name": "EAttack Spearphishing Attachment",
+                    "url": "https://attack.mitre.org/techniques/T1193/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--54846522316"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--1w54202613",
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--6098765437652ere4q"
+        },
         {
             "type": "attack-pattern",
             "name": "Spoof Reporting Message",
