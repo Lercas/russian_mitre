@@ -3540,16 +3540,12 @@
         },
         {
             "type": "attack-pattern",
-            "name": "System Firmware",
-            "description": "System firmware on modern assets is often designed with an update feature. Older device firmware may be factory installed and require special reprograming equipment. When available, the firmware update feature enables vendors to remotely patch bugs and perform upgrades. Device firmware updates are often delegated to the user and may be done using a software update package. It may also be possible to perform this task over the network.\n\nAn adversary may exploit the firmware update feature on accessible devices to upload malicious or out-of-date firmware. Malicious modification of device firmware may provide an adversary with root access to a device, given firmware is one of the lowest programming abstraction layers. (Citation: Research - Firmware Modification)\n\nIn the 2015 attack on the Ukranian power grid, the adversaries gained access to the control networks of three different energy companies. The adversaries developed malicious firmware for the serial-to-ethernet devices which rendered them inoperable and severed connections between the control center and the substation. (Citation: Ukraine15 - EISAC - 201603)",
+            "name": "Копирование и запуск скриптов и исполняемых файлов через средства удаленного управления ОС и сервисами",
+            "description": "Копирование и запуск скриптов и исполняемых файлов через средства удаленного управления операционной системой и сервисами.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
                     "phase_name": "persistence-ics"
-                },
-                {
-                    "kill_chain_name": "mitre-ics-attack",
-                    "phase_name": "inhibit-response-function"
                 }
             ],
             "x_mitre_platforms": [
@@ -3562,7 +3558,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T857",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0857"
+                    "external_id": "T3.4"
                 },
                 {
                     "description": "Basnight, Zachry, et al.. (n.d.).  Retrieved October 17, 2017.",
@@ -3770,16 +3766,12 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Valid Accounts",
-            "description": "Adversaries may steal the credentials of a specific user or service account using credential access techniques. In some cases, default credentials for control system devices may be publicly available. Compromised credentials may be used to bypass access controls placed on various resources on hosts and within the network, and may even be used for persistent access to remote systems. Compromised and default credentials may also grant an adversary increased privilege to specific systems and devices or access to restricted areas of the network. Adversaries may choose not to use malware or tools, in conjunction with the legitimate access those credentials provide, to make it harder to detect their presence or to control devices and send legitimate commands in an unintended way. \n\t\t\t\nAdversaries may also create accounts, sometimes using predefined account names and passwords, to provide a means of backup access for persistence. (Citation: BlackEnergy - Booz Allen Hamilton)\n\t\t\t\nThe overlap of credentials and permissions across a network of systems is of concern because the adversary may be able to pivot across accounts and systems to reach a high level of access (i.e., domain or enterprise administrator)  and possibly between the enterprise and operational technology environments. Adversaries may be able to leverage valid credentials from one system to gain access to another system.\n\nIn the 2015 attack on the Ukranian power grid, the adversaries used valid credentials to interact directly with the client application of the distribution management system (DMS) server via a VPN and native remote access services to access employee workstations hosting HMI applications. (Citation: Ukraine15 - EISAC - 201603) The adversaries caused outages at three different energy companies, causing loss of power to over 225,000 customers over various areas. (Citation: Ukraine15 - EISAC - 201603)",
+            "name": "Эксплуатация уязвимостей типа удаленное исполнение программного кода",
+            "description": "Эксплуатация уязвимостей типа удаленное исполнение программного кода (RCE, Remotecodeexecution)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
                     "phase_name": "persistence-ics"
-                },
-                {
-                    "kill_chain_name": "mitre-ics-attack",
-                    "phase_name": "lateral-movement-ics"
                 }
             ],
             "x_mitre_platforms": [
@@ -3796,7 +3788,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T859",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0859"
+                    "external_id": "T3.5"
                 },
                 {
                     "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
@@ -14980,7 +14972,7 @@
         },
         {
             "type": "x-mitre-tactic",
-            "name": "Внедрение и исполнение вредоносного программного обеспечения в системах и сетях",
+            "name": "Внедрение и исполнение вредоносного ПО в системах",
             "description": "Получив доступ к узлу сети или системы, нарушитель стремится внедрить в его программную среду инструментальные средства, необходимые ему для дальнейших действий.",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17T00:14:20.652Z",
