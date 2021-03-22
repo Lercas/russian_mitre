@@ -1265,7 +1265,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T823",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T2.12"
+                    "external_id": "T2.13"
                 },
                 {
                     "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
@@ -1305,7 +1305,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T823",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T2.13"
+                    "external_id": "T2.14"
                 },
                 {
                     "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
