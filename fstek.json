@@ -1130,7 +1130,7 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Несанкционированный доступ путем подбора учетных данных сотрудника или легитимного пользователя ",
+            "name": "Несанкционированный доступ путем подбора учетных данных сотрудника или легитимного пользователя",
             "description": "Несанкционированный доступ путем подбора учетных данных сотрудника или легитимного пользователя (методами прямого перебора, словарных атак, паролей производителей по-умолчанию, использования одинаковых паролей для разных учетных записей, применения «радужных» таблиц или другими).",
             "kill_chain_phases": [
                 {
@@ -1167,6 +1167,46 @@
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
             "id": "attack-pattern--b0628bfc-5376-4a38-9182-f322111b4cf"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Несанкционированный доступ путем компрометации учетных данных сотрудника организации",
+            "description": "Несанкционированный доступ путем компрометации учетных данных сотрудникаорганизации, в том числе через компрометацию многократно используемого в различныхсистемах пароля (для личных или служебных нужд).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "execution-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T823",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T2.11"
+                },
+                {
+                    "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
+                    "source_name": "Ukraine15 - EISAC - 201603",
+                    "url": "https://ics.sans.org/media/E-ISAC%20SANS%20Ukraine%20DUC%205.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-7133b4802329"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-1297-d122b55e4035",
+            "x_mitre_data_sources": [
+                "File monitoring",
+                "Process monitoring",
+                "Process command-line parameters",
+                "Binary file metadata"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--b0628bfc-5376-4a38-9182-f322331b4cf"
         },
         {
             "type": "attack-pattern",
