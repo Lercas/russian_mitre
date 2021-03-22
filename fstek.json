@@ -2781,8 +2781,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Rootkit",
-            "description": "Adversaries may deploy rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components. Rootkits are programs that hide the existence of malware by intercepting and modifying operating-system API calls that supply system information. Rootkits or rootkit-enabling functionality may reside at the user or kernel level in the operating system, or lower. (Citation: EAttack Rootkit) \n\nFirmware rootkits that affect the operating system yield nearly full control of the system. While firmware rootkits are normally developed for the main processing board, they can also be developed for I/O  that can be attached to the asset. Compromise of this firmware allows the modification of all of the process variables and functions the module engages in. This may result in commands being disregarded and false information being fed to the main device. By tampering with device processes, an adversary may inhibit its expected response functions and possibly enable Impact.\n\nDetection: Some rootkit protections may be built into anti-virus or operating system software. There are dedicated rootkit detection tools that look for specific types of rootkit behavior. Monitor for the existence of unrecognized DLLs, devices, services, and changes to the MBR.Reference - Rootkit",
+            "name": "Внесение соответствующих записей обеспечивающих запуск вредоносного программного обеспечения при перезагрузке системы или сети",
+            "description": "Внесение соответствующих записей в реестр, автозагрузку, планировщики заданий, обеспечивающих запуск вредоносного программного обеспечения при перезагрузке системы или сети.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -2801,7 +2801,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T851",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0851"
+                    "external_id": "T4.5"
                 },
                 {
                     "description": "Enterprise ATT&CK. (2018, January 11). Rootkit. Retrieved May 16, 2018.",
@@ -3443,17 +3443,13 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Spoof Reporting Message",
-            "description": "Adversaries may spoof reporting messages in control systems environments to achieve evasion and assist with impairment of process controls. Reporting messages are used in control systems so that operators and network defenders can understand the status of the network. Reporting messages show the status of devices and any important events that the devices control.  \n\nIf an adversary has the ability to Spoof Reporting Messages, then they can impact the network in many ways. The adversary can Spoof Reporting Messages that state that the device is in normal working condition, as a form of evasion. The adversary could also Spoof Reporting Messages to make the defenders and operators think that other errors were occurring, to distract them from the actual source of the problem. (Citation: Research - Research - Taxonomy Cyber Attacks on SCADA)\n\nIn the Maroochy Attack, the adversary used a dedicated analog two-way radio system to send false data and instructions to pumping stations and the central computer. (Citation: Maroochy - MITRE - 200808)",
+            "name": "Компрометация прошивок устройств с использованием уязвимостей или программно-аппаратных закладок",
+            "description": "Компрометация прошивок устройств с использованием уязвимостей или программно-аппаратных закладок, к примеру, внедрение новых функций в BIOS (UEFI), компрометация прошивок жестких дисков.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
                     "phase_name": "evasion-ics"
                 },
-                {
-                    "kill_chain_name": "mitre-ics-attack",
-                    "phase_name": "impair-process-control"
-                }
             ],
             "x_mitre_platforms": [
                 "Windows",
@@ -3463,7 +3459,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T856",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0856"
+                    "external_id": "T4.6"
                 },
                 {
                     "description": "Bonnie Zhu, Anthony Joseph, Shankar Sastry. (2011). A Taxonomy of Cyber Attacks on SCADA Systems. Retrieved January 12, 2018.",
@@ -3717,8 +3713,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Utilize/Change Operating Mode",
-            "description": "Adversaries may place controllers into an alternate mode of operation to enable configuration setting changes for evasive code execution or to inhibit device functionality. Programmable controllers typically have several modes of operation. These modes can be broken down into three main categories: program run, program edit, and program write.  Each of these modes puts the device in a state in which certain functions are available.  For instance, the program edit mode allows alterations to be made to the user program while the device is still online.\n\t\t\t\nBy driving a device into an alternate mode of operation, an adversary has the ability to change configuration settings in such a way to cause a Impact to equipment and/or industrial process associated with the targeted device. An adversary may also use this alternate mode to execute arbitrary code which could be used to evade defenses.",
+            "name": "Резервное копирование вредоносного кода в областях, редко подвергаемых проверке",
+            "description": "Резервное копирование вредоносного кода в областях, редко подвергаемых проверке, в том числе заражение резервных копий данных, сохранение образов в неразмеченных областях жестких дисков и сменных носителей.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -3738,7 +3734,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T858",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0858"
+                    "external_id": "T4.7"
                 }
             ],
             "object_marking_refs": [
