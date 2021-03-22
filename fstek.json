@@ -3461,31 +3461,6 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Использование методов социальной инженерии для получения прав доступа к компонентам системы",
-            "description": "Использование методов социальной инженерии, в том числе фишинга, для получения прав доступа к компонентам системы.",
-            "kill_chain_phases": [
-                {
-                    "kill_chain_name": "mitre-ics-attack",
-                    "phase_name": "execution-ics"
-                }
-            ],
-            "x_mitre_platforms": [ 
-                "Human-Machine Interface"
-            ],
-            "object_marking_refs": [
-                "marking-definition--1"
-            ],
-            "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--1",
-            "x_mitre_data_sources": [
-                "Process monitoring"
-            ],
-            "modified": "2020-05-21T17:43:26.506Z",
-            "type": "attack-pattern",
-            "id": "attack-pattern--1"
-        },
-        {
-            "type": "attack-pattern",
             "name": "Utilize/Change Operating Mode",
             "description": "Adversaries may place controllers into an alternate mode of operation to enable configuration setting changes for evasive code execution or to inhibit device functionality. Programmable controllers typically have several modes of operation. These modes can be broken down into three main categories: program run, program edit, and program write.  Each of these modes puts the device in a state in which certain functions are available.  For instance, the program edit mode allows alterations to be made to the user program while the device is still online.\n\t\t\t\nBy driving a device into an alternate mode of operation, an adversary has the ability to change configuration settings in such a way to cause a Impact to equipment and/or industrial process associated with the targeted device. An adversary may also use this alternate mode to execute arbitrary code which could be used to evade defenses.",
             "kill_chain_phases": [
