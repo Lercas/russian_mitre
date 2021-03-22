@@ -4194,6 +4194,90 @@
         },
         {
             "type": "attack-pattern",
+            "name": "Планирование запуска вредоносных программ при старте операционной системы",
+            "description": "Планирование запуска вредоносных программ через планировщиков задач воперационной системе, а также с использованием механизмов планирования выполнения вудаленной системе через удаленный вызов процедур. Выполнение в контексте планировщика в ряде случаев позволяет авторизовать вредоносное программное обеспечение и повысить доступные ему привилегии.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "persistence-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Safety Instrumented System/Protection Relay"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T859",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T3.15"
+                },
+                {
+                    "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
+                    "source_name": "Ukraine15 - EISAC - 201603",
+                    "url": "https://ics.sans.org/media/E-ISAC%20SANS%20Ukraine%20DUC%205.pdf"
+                },
+                {
+                    "description": "Booz Allen Hamilton. (n.d.). When The Lights Went Out. Retrieved October 22, 2019.",
+                    "source_name": "BlackEnergy - Booz Allen Hamilton",
+                    "url": "https://www.boozallen.com/content/dam/boozallen/documents/2016/09/ukraine-report-when-the-lights-went-out.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e52-bd29-81d9p2802364"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cd6e5-0c7d-4612-8297-d2b9y55e43b9",
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--cd2c76a4-5d23-4ca5-9c41-d8e9104z7303"
+        },
+            {
+            "type": "attack-pattern",
+            "name": "Запуск вредоносных программ при помощи легитимных, подписанных цифровой подписью утилит установки приложений и средств запуска скриптов",
+            "description": "Запуск вредоносных программ при помощи легитимных, подписанных цифровой подписью утилит установки приложений и средств запуска скриптов (т.н. техникапроксирования запуска), а также через средства запуска кода элементов управления ActiveX,компонентов фильтров (кодеков) и компонентов библиотек DLL.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "persistence-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Safety Instrumented System/Protection Relay"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T859",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T3.15"
+                },
+                {
+                    "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
+                    "source_name": "Ukraine15 - EISAC - 201603",
+                    "url": "https://ics.sans.org/media/E-ISAC%20SANS%20Ukraine%20DUC%205.pdf"
+                },
+                {
+                    "description": "Booz Allen Hamilton. (n.d.). When The Lights Went Out. Retrieved October 22, 2019.",
+                    "source_name": "BlackEnergy - Booz Allen Hamilton",
+                    "url": "https://www.boozallen.com/content/dam/boozallen/documents/2016/09/ukraine-report-when-the-lights-went-out.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e52-bd29-81d9p2802364"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cd6e5-0c7d-4612-8297-d2b9y55e43b9",
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--cd2c76a4-5d23-4ca5-9c41-d8e9104z7303"
+        },
+        {
+            "type": "attack-pattern",
             "name": "Сбор  информации  о  пользователе  при  посещении  им  веб-сайта",
             "description": "Сбор  информации  о  пользователе  при  посещении  им  веб-сайта,  в  том  числе  с использованием уязвимостей программы браузера и надстраиваемых модулей браузера",
             "kill_chain_phases": [
