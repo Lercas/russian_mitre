@@ -1077,7 +1077,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802169"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-1297-d1b8b55e4015",
             "x_mitre_data_sources": [
                 "File monitoring",
                 "Process monitoring",
@@ -1086,7 +1086,7 @@
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--b0628bfc-5376-4a38-9182-f324501cb4cf"
+            "id": "attack-pattern--b0628bfc-5376-4a38-9182-f31101cb4cf"
         },
         {
             "type": "attack-pattern",
