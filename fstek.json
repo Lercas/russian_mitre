@@ -3472,36 +3472,17 @@
             "x_mitre_platforms": [ 
                 "Human-Machine Interface"
             ],
-            "external_references": [
-                {
-                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T863",
-                    "source_name": "mitre-ics-attack",
-                    "external_id": "T0863"
-                },
-                {
-                    "description": "Booz Allen Hamilton. (n.d.). When The Lights Went Out. Retrieved October 22, 2019.",
-                    "source_name": "BlackEnergy - Booz Allen Hamilton",
-                    "url": "https://www.boozallen.com/content/dam/boozallen/documents/2016/09/ukraine-report-when-the-lights-went-out.pdf"
-                },
-                {
-                    "description": "Daavid Hentunen, Antti Tikkanen. (2014, June 23). Havex Hunts For ICS/SCADA Systems. Retrieved April 1, 2019.",
-                    "source_name": "Havex - F-Secure",
-                    "url": "https://www.f-secure.com/weblog/archives/00002718.html"
-                }
-            ],
             "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+                "marking-definition--1"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created_by_ref": "identity--1",
             "x_mitre_data_sources": [
-                "Anti-virus",
-                "Process command-line parameters",
                 "Process monitoring"
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--2736b752-4ec5-4421-a230-8977dea7649c"
+            "id": "attack-pattern--1"
         },
         {
             "type": "attack-pattern",
