@@ -3984,7 +3984,7 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Подмена дистрибутивов (установочных комплектов) программ ",
+            "name": "Подмена дистрибутивов (установочных комплектов) программ",
             "description": "Подмена дистрибутивов (установочных комплектов) программ на носителях информации или общих сетевых ресурсах.",
             "kill_chain_phases": [
                 {
@@ -4023,6 +4023,174 @@
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
             "id": "attack-pattern--cd2c76a4-5e23-4ca5-9c40-d2e9104f7303"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Компрометация средств создания программного кода приложений в инфраструктуре разработчика этих приложений",
+            "description": "Компрометация средств создания программного кода приложений в инфраструктуре разработчика этих приложений (компиляторов, линковщиков, средств управления разработкой) для последующего автоматизированного внесения изменений в этот код, устанавливаемый авторизованным пользователем на целевые для нарушителя системы.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "persistence-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Safety Instrumented System/Protection Relay"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T859",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T3.12"
+                },
+                {
+                    "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
+                    "source_name": "Ukraine15 - EISAC - 201603",
+                    "url": "https://ics.sans.org/media/E-ISAC%20SANS%20Ukraine%20DUC%205.pdf"
+                },
+                {
+                    "description": "Booz Allen Hamilton. (n.d.). When The Lights Went Out. Retrieved October 22, 2019.",
+                    "source_name": "BlackEnergy - Booz Allen Hamilton",
+                    "url": "https://www.boozallen.com/content/dam/boozallen/documents/2016/09/ukraine-report-when-the-lights-went-out.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d93-4e52-bc29-71d9t2802364"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4632-8297-d2b9b55e43b9",
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--cd2c76a4-5e23-4ca5-9c43-d2e9104f7303"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Компрометация сертификата, используемого для цифровой подписи образа ПО",
+            "description": "Компрометация сертификата, используемого для цифровой подписи образа ПО,включая кражу этого сертификата у производителя ПО или покупку краденого сертификата на нелегальных площадках в сетях связи (т.н. «дарквеб») и подделку сертификата с помощьюэксплуатации уязвимостей ПО, реализующего функции генерирования криптографическихключей, хранения и управления цифровыми сертификатами.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "persistence-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Safety Instrumented System/Protection Relay"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T859",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T3.11"
+                },
+                {
+                    "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
+                    "source_name": "Ukraine15 - EISAC - 201603",
+                    "url": "https://ics.sans.org/media/E-ISAC%20SANS%20Ukraine%20DUC%205.pdf"
+                },
+                {
+                    "description": "Booz Allen Hamilton. (n.d.). When The Lights Went Out. Retrieved October 22, 2019.",
+                    "source_name": "BlackEnergy - Booz Allen Hamilton",
+                    "url": "https://www.boozallen.com/content/dam/boozallen/documents/2016/09/ukraine-report-when-the-lights-went-out.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e52-bc29-71d9t2802364"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4612-8297-d2b9b55e43b9",
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--cd2c76a4-5e23-4ca5-9c41-d2e9104f7303"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Планирование запуска вредоносных программ при старте операционной системы",
+            "description": "Планирование запуска вредоносных программ при старте операционной системы отвечающих за автоматический запуск программ, запуска вредоносных программ как сервисов и т.п..",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "persistence-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Safety Instrumented System/Protection Relay"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T859",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T3.14"
+                },
+                {
+                    "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
+                    "source_name": "Ukraine15 - EISAC - 201603",
+                    "url": "https://ics.sans.org/media/E-ISAC%20SANS%20Ukraine%20DUC%205.pdf"
+                },
+                {
+                    "description": "Booz Allen Hamilton. (n.d.). When The Lights Went Out. Retrieved October 22, 2019.",
+                    "source_name": "BlackEnergy - Booz Allen Hamilton",
+                    "url": "https://www.boozallen.com/content/dam/boozallen/documents/2016/09/ukraine-report-when-the-lights-went-out.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e52-bc29-71d9t2802364"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4612-8297-d2b9b55e43b9",
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--cd2c76a4-5e23-4ca5-9c41-d2e9104f7303"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Компрометация средств сборки, конфигурирования и разворачивания программного кода",
+            "description": "Компрометация средств сборки, конфигурирования и разворачивания программного кода, а также средств создания узкоспециализированного кода (к примеру, кодапромышленных контроллеров) в инфраструктуре целевой системы для автоматизированноговнесения изменений в этот код, устанавливаемый авторизованным пользователем на целевыедля нарушителя системы.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "persistence-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Safety Instrumented System/Protection Relay"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T859",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T3.13"
+                },
+                {
+                    "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
+                    "source_name": "Ukraine15 - EISAC - 201603",
+                    "url": "https://ics.sans.org/media/E-ISAC%20SANS%20Ukraine%20DUC%205.pdf"
+                },
+                {
+                    "description": "Booz Allen Hamilton. (n.d.). When The Lights Went Out. Retrieved October 22, 2019.",
+                    "source_name": "BlackEnergy - Booz Allen Hamilton",
+                    "url": "https://www.boozallen.com/content/dam/boozallen/documents/2016/09/ukraine-report-when-the-lights-went-out.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e52-bc29-71d9p2802364"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4612-8297-d2b9y55e43b9",
+            "x_mitre_data_sources": [
+                "Process monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--cd2c76a4-5e23-4ca5-9c41-d2e9104z7303"
         },
         {
             "type": "attack-pattern",
