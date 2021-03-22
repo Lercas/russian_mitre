@@ -3719,10 +3719,6 @@
                 {
                     "kill_chain_name": "mitre-ics-attack",
                     "phase_name": "evasion-ics"
-                },
-                {
-                    "kill_chain_name": "mitre-ics-attack",
-                    "phase_name": "inhibit-response-function"
                 }
             ],
             "x_mitre_platforms": [
