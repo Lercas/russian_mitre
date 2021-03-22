@@ -1413,8 +1413,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "I/O Module Discovery",
-            "description": "Adversaries may use input/output (I/O) module discovery to gather key information about a control system device. An I/O module is a device that allows the control system device to either receive or send signals to other devices. These signals can be analog or digital, and may support a number of different protocols. Devices are often able to use attachable I/O modules to increase the number of inputs and outputs that it can utilize. An adversary with access to a device can use native device functions to enumerate I/O modules that are connected to the device. Information regarding the I/O modules can aid the adversary in understanding related control processes.",
+            "name": "Удаленное управление через стандартные протоколы",
+            "description": "Удаленное управление через стандартные протоколы (например, RDP, SSH), а также использование инфраструктуры провайдеров средств удаленного администрирования. Пример: использование средств удаленного управления RMS/teamviewer для создания канала связи и управления скомпрометированной системой со стороны злоумышленников.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -1429,7 +1429,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T824",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0824"
+                    "external_id": "T5.1"
                 }
             ],
             "object_marking_refs": [
@@ -15258,8 +15258,8 @@
         },
         {
             "type": "x-mitre-tactic",
-            "name": "Discovery",
-            "description": "The adversary is trying to figure out your ICS environment.\n\nDiscovery consists of techniques that adversaries use to survey your ICS environment and gain knowledge about the internal network, control system devices, and how their processes interact. These techniques help adversaries observe the environment and determine next steps for target selection and [Lateral Movement](https://collaborate.mitre.org/attackics/index.php/Lateral_Movement). They also allow adversaries to explore what they can control and gain insight on interactions between various control system processes. Discovery techniques are often an act of progression into the environment which enable the adversary to orient themselves before deciding how to act. Adversaries may use Discovery techniques that result in [Collection](https://collaborate.mitre.org/attackics/index.php/Collection), to help determine how available resources benefit their current objective. A combination of native device communications and functions, and custom tools are often used toward this post-compromise information-gathering objective.",
+            "name": "Управление вредоносным программным обеспечением и (или) компонентами",
+            "description": "Управление вредоносным программным обеспечением и (или) компонентами, к которым ранее был получен доступ.",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17T00:14:20.652Z",
             "id": "x-mitre-tactic--696af733-728e-49d7-8261-75fdc590f453",
@@ -15272,7 +15272,7 @@
                 {
                     "source_name": "mitre-ics-attack",
                     "url": "https://collaborate.mitre.org/attackics/index.php/Discovery",
-                    "external_id": "TA0102"
+                    "external_id": "T5"
                 }
             ]
         },
