@@ -2303,8 +2303,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Point & Tag Identification",
-            "description": "Adversaries may collect point and tag values to gain a more comprehensive understanding of the process environment. Points may be values such as inputs, memory locations, outputs or other process specific variables. (Citation: References - tags process comprehension) Tags are the identifiers given to points for operator convenience. \n\nCollecting such tags provides valuable context to environmental points and enables an adversary to map inputs, outputs, and other values to their control processes. Understanding the points being collected may inform an adversary on which processes and values to keep track of over the course of an operation.",
+            "name": "Выполнение атаки отказа в обслуживании на основные и резервные каналы связи",
+            "description": "Выполнение атаки отказа в обслуживании на основные и резервные каналы связи,которые могут использоваться для доставки сообщений о неработоспособности систем илиих компонентов или о других признаках атаки.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -2321,7 +2321,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T861",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0861"
+                    "external_id": "T7.8"
                 },
                 {
                     "description": "Benjamin Green. (n.d.). On the Significance of Process Comprehension for Conducting Targeted ICS Attacks. Retrieved November 1, 2019.",
@@ -2434,8 +2434,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Program Upload",
-            "description": "Adversaries may attempt to upload a program from a PLC to gather information about an industrial process. Uploading a program may allow them to acquire and study the underlying logic. Methods of program upload include vendor software, which enables the user to upload and read a program running on a PLC. This software can be used to upload the target program to a workstation, jump box, or an interfacing device.",
+            "name": "Подписание кода",
+            "description": "Подписание кода, включая использование скомпрометированных сертификатов авторитетных производителей ПО для подписания вредоносных программных модулей.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -2451,7 +2451,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T845",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0845"
+                    "external_id": "T7.9"
                 }
             ],
             "object_marking_refs": [
@@ -3013,8 +3013,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Role Identification",
-            "description": "Adversaries may perform role identification of devices involved with physical processes of interest in a target control system. Control systems devices often work in concert to control a physical process. Each device can have one or more roles that it performs within that control process. By collecting this role-based data, an adversary can construct a more targeted attack.\n\nFor example, a power generation plant may have unique devices such as one that monitors power output of a generator and another that controls the speed of a turbine. Examining devices roles allows the adversary to observe how the two devices work together to monitor and control a physical process. Understanding the role of a target device can inform the adversary's decision on what action to take, in order to cause Impact and influence or disrupt the integrity of operations. Furthermore, an adversary may be able to capture control system protocol traffic. By studying this traffic, the adversary may be able to determine which devices are outstations, and which are masters. Understanding of master devices and their role within control processes can enable the use of Rogue Master Device",
+            "name": "Внедрение вредоносного кода в доверенные процессы ОС",
+            "description": "Внедрение вредоносного кода в доверенные процессы операционной системы и другие объекты, которые не подвергаются анализу на наличие такого кода, для предотвращения обнаружения.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -3032,7 +3032,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T850",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0850"
+                    "external_id": "T9.10"
                 }
             ],
             "object_marking_refs": [
@@ -3088,8 +3088,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Screen Capture",
-            "description": "Adversaries may attempt to perform screen capture of devices in the control system environment. Screenshots may be taken of workstations, HMIs, or other devices that display environment-relevant process, device, reporting, alarm, or related data. These device displays may reveal information regarding the ICS process, layout, control, and related schematics. In particular, an HMI can provide a lot of important industrial process information. (Citation: Alert - Russian APT TA18-074A - 201803) Analysis of screen captures may provide the adversary with an understanding of intended operations and interactions between critical devices.",
+            "name": "Модификация модулей и конфигурации вредоносного ПО",
+            "description": "Модификация модулей и конфигурации вредоносного программного обеспечения для затруднения его обнаружения в системе.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -3104,7 +3104,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0852"
+                    "external_id": "T7.11"
                 },
                 {
                     "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
@@ -3125,6 +3125,326 @@
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
             "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c0865f377"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Манипуляции именами и параметрами запуска",
+            "description": "Манипуляции именами и параметрами запуска процессов и приложений для обеспечения скрытности .",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.12"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802186"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b1",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c0865f371"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Создание скрытых файлов/учетных записей",
+            "description": "Создание скрытых файлов, скрытых учетных записей.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.13"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802182"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e40b2",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c0865f372"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Установление ложных доверенных отношений",
+            "description": "Установление ложных доверенных отношений, в том числе установка корневых сертификатов для успешной валидации вредоносных программных модулей и авторизации внешних сервисов.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.14"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802183"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e40b3",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c0865f373"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Внедрение вредоносного кода выборочным/целевым образом на наиболее важные системы",
+            "description": "Внедрение вредоносного кода выборочным/целевым образом на наиболее важные системы или системы , удовлетворяющие определенным критериям, во избежание преждевременной компрометации информации об используемых при атаке уязвимостях и обнаружения факта атаки.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.15"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-75d5b4802185"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e40b5",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5865f375"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Искусственное временное ограничение распространения или активации вредоносного кода внутри сети",
+            "description": "Искусственное временное ограничение распространения или активации вредоносного кода внутри сети, во избежание преждевременного обнаружения факта атаки.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.16"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-75d5b4802186"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e40b6",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5865f376"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Упаковка/сокрытие программного кода вредоносного ПО",
+            "description": "Обфускация, шифрование, упаковка  или сокрытие программного кода вредоносного ПО, данных и команд управляющего трафика, в том числе при хранении этого кода и данных в атакуемой системе, при хранении на сетевом ресурсе или при передаче по сети.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.17"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-75d5b4802187"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e40b7",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5865f776"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Использование средств виртуализации",
+            "description": "Использование средств виртуализации для сокрытия вредоносного кода или вредоносной активности от средств обнаружения в операционной системе.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.18"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-75d5b4802188"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e40b8",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5865f778"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Туннелирование трафика управления через VPN",
+            "description": "Туннелирование трафика управления через VPN.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.19"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-75d5b4802189"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e40b9",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5865f779"
         },
         {
             "type": "attack-pattern",
