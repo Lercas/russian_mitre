@@ -3448,6 +3448,326 @@
         },
         {
             "type": "attack-pattern",
+            "name": "Туннелирование трафика управления в поля заполнения и данных служебных протоколов",
+            "description": "Туннелирование трафика управления в поля заполнения и данных служебных протоколов, к примеру, туннелирование трафика управления в поля данных и заполнения протоколов DNS, ICMP или другие.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.20"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-75d5b4802119"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e41b9",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5865f179"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Изменение конфигурации сети",
+            "description": "Изменение конфигурации сети, включая изменение конфигурации сетевых устройств, организацию прокси -соединений, изменение таблиц маршрутизации, сброс и модификацию паролей доступа к интерфейсам управления сетевыми устройствами.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.21"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-72d5b4802219"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d3b8b55e42b9",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5865f279"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Подмена и компрометация прошивок",
+            "description": "Подмена и компрометация прошивок, в том числе прошивок BIOS, жестких дисков.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.22"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-72d5b4802219"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d3b8b55e43b9",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5865f379"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Подмена файлов легитимных программ и библиотек",
+            "description": "Подмена файлов легитимных программ и библиотек непосредственно в системе.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.23"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-73d5b4802219"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d3b8b55e43b1",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5165f371"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Подмена легитимных программ и библиотек через сети связи",
+            "description": "Подмена легитимных программ и библиотек, а также легитимных обновлений программного обеспечения, поставляемых производителем удаленно через сети связи, в репозиториях поставщика или при передаче через сети связи.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.24"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-73d5b4802249"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d3b8b55e43b4",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5165f374"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Подмена ссылок на легитимные программы и библиотеки",
+            "description": "Подмена ссылок на легитимные программы и библиотеки, а также на легитимные обновления программного обеспечения, поставляемые производителем удаленно через сети связи, информации о таких обновлениях, включая атаки на инфраструктурные сервисы поставщика (такие как DNS hijacking), атаки на третьесторонние ресурсы, атаки на электронную почту и другие средства обмена сообщениями.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.25"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-73d5b4802259"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d3b8b55e43b5",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5165f354"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Подмена дистрибутивов программ",
+            "description": "Подмена дистрибутивов (установочных комплектов) программ на носителях информации или общих сетевых ресурсах.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.26"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-73d6b4802259"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d3b8b55e43b6",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c5165f364"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Компрометация сертификата, используемого для цифровой подписи образа ПО",
+            "description": "Компрометация сертификата, используемого для цифровой подписи образа ПО, включая кражу этого сертификата у производителя ПО или покупку краденого сертификата на нелегальных площадках в сетях связи (т.н. «дарквеб») и подделку сертификата с помощью эксплуатации уязвимостей ПО, реализующего функции генерирования криптографических ключей, хранения и управления цифровыми сертификатами.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.26"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-73d6b4802659"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d6b8b55e43b6",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c6165f364"
+        },
+        {
+            "type": "attack-pattern",
             "name": "Использование недокументированных возможностей программного обеспечения",
             "description": "Использование недокументированных возможностей программного обеспечениясервисов, приложений, оборудования, включая использование отладочных интерфейсов, программных, программно-аппаратных закладок.",
             "kill_chain_phases": [
