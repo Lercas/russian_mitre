@@ -3744,7 +3744,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T7.26"
+                    "external_id": "T7.27"
                 },
                 {
                     "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
@@ -3765,6 +3765,86 @@
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
             "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c6165f364"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Компрометация средств создания программного кода приложений в инфраструктуре разработчика этих приложений",
+            "description": "Компрометация средств создания программного кода приложений в инфраструктуре разработчика этих приложений (компиляторов, линковщиков, средств управления разработкой) для последующего автоматизированного внесения изменений в этот код, устанавливаемый авторизованным пользователем на целевые для нарушителя системы.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.28"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-73d6b4802859"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d6b8b55e48b6",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c6165f384"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Компрометация средств сборки, конфигурирования и разворачивания программного кода",
+            "description": "Компрометация средств сборки, конфигурирования и разворачивания программного кода, а также средств создания узкоспециализированного кода (к примеру, кода промышленных контроллеров), в инфраструктуре целевой системы, для автоматизированного внесения изменений в этот код, устанавливаемый авторизованным пользователем на целевые для нарушителя системы.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "collection-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Human-Machine Interface"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T852",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T7.29"
+                },
+                {
+                    "description": "ICS-CERT. (2017, October 21). Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 23, 2017.",
+                    "source_name": "Alert - Russian APT TA18-074A - 201803",
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-79d9b4802859"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d9b9b55e48b9",
+            "x_mitre_data_sources": [
+                "API monitoring",
+                "Process monitoring",
+                "File monitoring"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c6165f994"
         },
         {
             "type": "attack-pattern",
