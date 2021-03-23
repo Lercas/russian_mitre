@@ -2184,8 +2184,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Monitor Process State",
-            "description": "Adversaries may gather information about the physical process state. This information may be used to gain more information about the process itself or used as a trigger for malicious actions. The sources of process state information may vary such as, OPC tags, historian data, specific PLC block information, or network traffic.",
+            "name": "Подделка данных системы управления",
+            "description": "Подделка данных телеметрии, данных вывода автоматизированных систем управления, данных систем и средств мониторинга и защиты от угроз промышленной, физической, пожарной, экологической, радиационной безопасности, иных видов безопасности автоматизированной системы управления технологическими процессами и управляемого (контролируемого) объекта и (или) процесса, данных видеонаблюдения и других визуально или автоматически интерпретируемых данных.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -2204,7 +2204,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T801",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0801"
+                    "external_id": "T7.7"
                 }
             ],
             "object_marking_refs": [
