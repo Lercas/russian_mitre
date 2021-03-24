@@ -5124,6 +5124,162 @@
         },
         {
             "type": "attack-pattern",
+            "name": "Несанкционированное воздействие на автоматизированные системы управления с целью вызова отказа или нарушения функций управления",
+            "description": "Несанкционированное воздействие на автоматизированные системы управления с целью вызова отказа или нарушения функций управления, в том числе на АСУ критически важных объектов, потенциально опасных объектов, объектов, представляющих повышенную опасность для жизни и здоровья людей и для окружающей природной среды, в том числе опасных производственных объектов.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "impact-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T882",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T10.12"
+                },
+                {
+                    "description": "Mark Thompson. (2016, March 24). Iranian Cyber Attack on New York Dam Shows Future of War. Retrieved November 7, 2019.",
+                    "source_name": "Bowman Dam - Times",
+                    "url": "https://time.com/4270728/iran-cyber-attack-dam-fbi/"
+                },
+                {
+                    "description": "Danny Yadron. (2015, December 20). Iranian Hackers Infiltrated New York Dam in 2013. Retrieved November 7, 2019.",
+                    "source_name": "Bowman Dam - wall street journal",
+                    "url": "https://www.wsj.com/articles/iranian-hackers-infiltrated-new-york-dam-in-2013-1450662559"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4842362"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b5pe40b3",
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d853h54"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Несанкционированное воздействие на автоматизированные системы управления с целью вызова отказа или поломки оборудования",
+            "description": "Несанкционированное воздействие на автоматизированные системы управления с целью вызова отказа или поломки оборудования, в том числе АСУ критически важных объектов, потенциально опасных объектов, объектов, представляющих повышенную опасность для жизни и здоровья людей и для окружающей природной среды, в том числе опасных производственных объектов.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "impact-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T882",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T10.13"
+                },
+                {
+                    "description": "Mark Thompson. (2016, March 24). Iranian Cyber Attack on New York Dam Shows Future of War. Retrieved November 7, 2019.",
+                    "source_name": "Bowman Dam - Times",
+                    "url": "https://time.com/4270728/iran-cyber-attack-dam-fbi/"
+                },
+                {
+                    "description": "Danny Yadron. (2015, December 20). Iranian Hackers Infiltrated New York Dam in 2013. Retrieved November 7, 2019.",
+                    "source_name": "Bowman Dam - wall street journal",
+                    "url": "https://www.wsj.com/articles/iranian-hackers-infiltrated-new-york-dam-in-2013-1450662559"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d3b4842362"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b3pe40b3",
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d353h54"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Отключение систем и средств мониторинга и защиты от различных угроз",
+            "description": "Отключение систем и средств мониторинга и защиты от угроз промышленной, физической, пожарной, экологической, радиационной безопасности, иных видов безопасности, в том числе критически важных объектов, потенциально опасных объектов, объектов, представляющих повышенную опасность для жизни и здоровья людей и для окружающей природной среды, в том числе опасных производственных объектов.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "impact-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T882",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T10.14"
+                },
+                {
+                    "description": "Mark Thompson. (2016, March 24). Iranian Cyber Attack on New York Dam Shows Future of War. Retrieved November 7, 2019.",
+                    "source_name": "Bowman Dam - Times",
+                    "url": "https://time.com/4270728/iran-cyber-attack-dam-fbi/"
+                },
+                {
+                    "description": "Danny Yadron. (2015, December 20). Iranian Hackers Infiltrated New York Dam in 2013. Retrieved November 7, 2019.",
+                    "source_name": "Bowman Dam - wall street journal",
+                    "url": "https://www.wsj.com/articles/iranian-hackers-infiltrated-new-york-dam-in-2013-1450662559"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d3b4842364"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d4b8b3pe40b3",
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d354h54"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Воздействие на информационные ресурсы через разлиные системы",
+            "description": "Воздействие на информационные ресурсы через системы распознавания визуальных, звуковых образов, системы геопозиционирования и ориентации, датчики вибрации, прочие датчики и системы преобразования сигналов физического мира в цифровое представление с целью полного или частичного вывода системы из строя или несанкционированного управления системой.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "impact-ics"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T882",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T10.15"
+                },
+                {
+                    "description": "Mark Thompson. (2016, March 24). Iranian Cyber Attack on New York Dam Shows Future of War. Retrieved November 7, 2019.",
+                    "source_name": "Bowman Dam - Times",
+                    "url": "https://time.com/4270728/iran-cyber-attack-dam-fbi/"
+                },
+                {
+                    "description": "Danny Yadron. (2015, December 20). Iranian Hackers Infiltrated New York Dam in 2013. Retrieved November 7, 2019.",
+                    "source_name": "Bowman Dam - wall street journal",
+                    "url": "https://www.wsj.com/articles/iranian-hackers-infiltrated-new-york-dam-in-2013-1450662559"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-75d3b4842364"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d4b8b3pe45b3",
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d354h55"
+        },
+        {
+            "type": "attack-pattern",
             "name": "Использование внешних носителей информации, которые могли быть заражены вредоносным программным обеспечением",
             "description": "Использование в системе внешних носителей информации, которые моглиподключаться к другим системам и быть заражены вредоносным программным обеспечением",
             "kill_chain_phases": [
