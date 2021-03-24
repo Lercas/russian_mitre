@@ -890,7 +890,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T819",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0819"
+                    "external_id": "T1.4"
                 },
                 {
                     "description": "ICS-CERT. (2014, December 10). ICS Alert (ICS-ALERT-14-281-01E) Ongoing Sophisticated Malware Campaign Compromising ICS (Update E). Retrieved October 11, 2019.",
