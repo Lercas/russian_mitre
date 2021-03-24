@@ -5,8 +5,8 @@
     "objects": [
         {
             "type": "attack-pattern",
-            "name": "Activate Firmware Update Mode",
-            "description": "Adversaries may activate firmware update mode on devices to prevent expected response functions from engaging in reaction to an emergency or process malfunction. For example, devices such as protection relays may have an operation mode designed for firmware installation. This mode may halt process monitoring and related functions to allow new firmware to be loaded. A device left in update mode may be placed in an inactive holding state if no firmware is provided to it. By entering and leaving a device in this mode, the adversary may deny its usual functionalities.",
+            "name": "Доступ к системе для сбора информации и вывод информации через стандартные протоколы управления",
+            "description": "Доступ к системе для сбора информации и вывод информации через стандартные протоколы управления (например, RDP, SSH), а также использование инфраструктуры провайдеров средств удаленного администрирования.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -21,7 +21,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T800",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0800"
+                    "external_id": "T9.1"
                 }
             ],
             "object_marking_refs": [
@@ -44,8 +44,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Alarm Suppression",
-            "description": "Adversaries may target protection function alarms to prevent them from notifying operators of critical conditions. Alarm messages may be a part of an overall reporting system and of particular interest for adversaries. Disruption of the alarm system does not imply the disruption of the reporting system as a whole. \n\nIn the Maroochy Attack, the adversary suppressed alarm reporting to the central computer. (Citation: Maroochy - MITRE - 200808)\n\nA Secura presentation on targeting OT notes a dual fold goal for adversaries attempting alarm suppression: prevent outgoing alarms from being raised and prevent incoming alarms from being responded to. (Citation: References - Secura - 2019) The method of suppression may greatly depend on the type of alarm in question:\n\n* An alarm raised by a protocol message\n* An alarm signaled with I/O\n* An alarm bit set in a flag (and read)\n\nIn ICS environments, the adversary may have to suppress or contend with multiple alarms and/or alarm propagation to achieve a specific goal to evade detection or prevent intended responses from occurring. (Citation: References - Secura - 2019) Methods of suppression may involve tampering or altering device displays and logs, modifying in memory code to fixed values, or even tampering with assembly level instruction code.",
+            "name": "Доступ к системе для сбора/вывод информации через использование штатных средств удаленного доступа",
+            "description": "Доступ к системе для сбора информации и вывод информации через использование штатных средств удаленного доступа и управления операционной системы.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -60,12 +60,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T878",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0878"
-                },
-                {
-                    "description": "Marshall Abrams. (2008, July 23). Malicious Control System Cyber Security Attack Case Study\u2013 Maroochy Water Services, Australia. Retrieved March 27, 2018.",
-                    "source_name": "Maroochy - MITRE - 200808",
-                    "url": "https://www.mitre.org/sites/default/files/pdf/08%201145.pdf"
+                    "external_id": "T9.2"
                 },
                 {
                     "description": "Jos Wetzels, Marina Krotofil. (2019). A Diet of Poisoned Fruit: Designing Implants & OT Payloads for ICS Embedded Devices. Retrieved November 1, 2019.",
@@ -130,8 +125,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Block Command Message",
-            "description": "Adversaries may block a command message from reaching its intended target to prevent command execution. In OT networks, command messages are sent to provide instructions to control system devices. A blocked command message can inhibit response functions from correcting a disruption or unsafe condition. (Citation: Research - Research - Taxonomy Cyber Attacks on SCADA)\n\nIn the 2015 attack on the Ukranian power grid, malicious firmware was used to render communication devices inoperable and effectively prevent them from receiving remote command messages. (Citation: Ukraine15 - EISAC - 201603)",
+            "name": "Вывод информации на хорошо известные порты на внешних серверах",
+            "description": "Вывод информации на хорошо известные порты на внешних серверах, разрешенные на межсетевом экране (SMTP/25, HTTP/80, HTTPS/443 и др.).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -145,7 +140,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T803",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0803"
+                    "external_id": "T9.3"
                 },
                 {
                     "description": "Bonnie Zhu, Anthony Joseph, Shankar Sastry. (2011). A Taxonomy of Cyber Attacks on SCADA Systems. Retrieved January 12, 2018.",
@@ -174,8 +169,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Block Reporting Message",
-            "description": "Adversaries may block or prevent a reporting message from reaching its intended target. Reporting messages relay the status of control system devices, which can include event log data and I/O values of the associated device. By blocking these reporting messages, an adversary can potentially hide their actions from an operator.\n\nBlocking reporting messages in control systems that manage physical processes may contribute to system impact, causing inhibition of a response function. A control system may not be able to respond in a proper or timely manner to an event, such as a dangerous fault, if its corresponding reporting message is blocked. (Citation: Research - Research - Taxonomy Cyber Attacks on SCADA)\n\nIn the 2015 attack on the Ukranian power grid, malicious firmware was used to render communication devices inoperable and effectively block messages from being reported. (Citation: Ukraine15 - EISAC - 201603)",
+            "name": "Вывод информации на нестандартные порты на внешних серверах",
+            "description": "Вывод информации на нестандартные порты на внешних серверах, что в некоторых случаях позволяет эксплуатировать уязвимости средств сетевой фильтрации для обхода этих средств.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -190,7 +185,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T804",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0804"
+                    "external_id": "T9.4"
                 },
                 {
                     "description": "Bonnie Zhu, Anthony Joseph, Shankar Sastry. (2011). A Taxonomy of Cyber Attacks on SCADA Systems. Retrieved January 12, 2018.",
@@ -220,8 +215,54 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Block Serial COM",
-            "description": "Adversaries may block access to serial COM to prevent instructions or configurations from reaching target devices. Serial Communication ports (COM) allow communication with control system devices. Devices can receive command and configuration messages over such serial COM. Devices also use serial COM to send command and reporting messages. Blocking device serial COM may also block command messages and block reporting messages. \n\nA serial to Ethernet converter is often connected to a serial COM to facilitate communication between serial and Ethernet devices. One approach to blocking a serial COM would be to create and hold open a TCP session with the Ethernet side of the converter. A serial to Ethernet converter may have a few ports open to facilitate multiple communications. For example, if there are three serial COM available -- 1, 2 and 3 --, the converter might be listening on the corresponding ports 20001, 20002, and 20003. If a TCP/IP connection is opened with one of these ports and held open, then the port will be unavailable for use by another party. One way the adversary could achieve this would be to initiate a TCP session with the serial to Ethernet converter at <code>10.0.0.1</code> via Telnet on serial port 1 with the following command: <code>telnet 10.0.0.1 20001</code>.",
+            "name": "Вывод информации на нестандартные порты на внешних серверах",
+            "description": "Вывод информации на нестандартные порты на внешних серверах, что в некоторых случаях позволяет эксплуатировать уязвимости средств сетевой фильтрации для обхода этих средств.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "inhibit-response-function"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Field Controller/RTU/PLC/IED",
+                "Input/Output Server"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T804",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T9.4"
+                },
+                {
+                    "description": "Bonnie Zhu, Anthony Joseph, Shankar Sastry. (2011). A Taxonomy of Cyber Attacks on SCADA Systems. Retrieved January 12, 2018.",
+                    "source_name": "Research - Research - Taxonomy Cyber Attacks on SCADA",
+                    "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6142258"
+                },
+                {
+                    "description": "Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems. (2016, March 18). Analysis of the Cyber Attack on the Ukranian Power Grid: Defense Use Case. Retrieved March 27, 2018.",
+                    "source_name": "Ukraine15 - EISAC - 201603",
+                    "url": "https://ics.sans.org/media/E-ISAC%20SANS%20Ukraine%20DUC%205.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_data_sources": [
+                "Alarm History",
+                "Data historian",
+                "Network protocol analysis",
+                "Packet capture"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--3f1f4ccb-9be2-4ff8-8f69-dd972221169b"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Отправка данных по известным протоколам управления и передачи данных",
+            "description": "Отправка данных по известным протоколам управления и передачи данных.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -236,7 +277,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T805",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0805"
+                    "external_id": "T9.5"
                 }
             ],
             "object_marking_refs": [
@@ -378,8 +419,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Data Destruction",
-            "description": "Adversaries may perform data destruction over the course of an operation. The adversary may drop or create malware, tools, or other non-native files on a target system to accomplish this, potentially leaving behind traces of malicious activities. Such non-native files and other data may be removed over the course of an intrusion to maintain a small footprint or as a standard part of the post-intrusion cleanup process. (Citation: EAttack File Deletion) \n\nData destruction may also be used to render operator interfaces unable to respond and to disrupt response functions from occurring as expected. An adversary may also destroy data backups that are vital to recovery after an incident.\n\nStandard file deletion commands are available on most operating system and device interfaces to perform cleanup, but adversaries may use other tools as well. Two examples are Windows Sysinternals SDelete and Active@ Killdisk.\n\nDetection: It may be uncommon for events related to benign command-line functions such as DEL or third-party utilities or tools to be found in an environment, depending on the user base and how systems are typically used. Monitoring for command-line deletion functions to correlate with binaries or other files that an adversary may drop and remove may lead to detection of malicious activity. Another good practice is monitoring for known deletion and secure deletion tools that are not already on systems within an enterprise network that an adversary could introduce. Some monitoring tools may collect command-line arguments, but may not capture DEL commands since DEL is a native function within cmd.exe.",
+            "name": "Проксирование трафика передачи данных для маскировки подозрительной сетевой активности",
+            "description": "Проксирование трафика передачи данных для маскировки подозрительной сетевой активности, обхода правил на межсетевом экране и сокрытия адресов инфраструктуры нарушителей, дублирование каналов связи, обфускация и разделение трафика передачи данных во избежание обнаружения.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -396,7 +437,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T809",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0809"
+                    "external_id": "T9.6"
                 },
                 {
                     "description": "Enterprise ATT&CK. (2018, January 11). File Deletion. Retrieved May 17, 2018.",
@@ -590,8 +631,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Denial of Service",
-            "description": "Adversaries may perform Denial-of-Service (DoS) attacks to disrupt expected device functionality. Examples of DoS attacks include overwhelming the target device with a high volume of requests in a short time period and sending the target device a request it does not know how to handle. Disrupting device state may temporarily render it unresponsive, possibly lasting until a reboot can occur. When placed in this state, devices may be unable to send and receive requests, and may not perform expected response functions in reaction to other events in the environment.\n\nSome ICS devices are particularly sensitive to DoS events, and may become unresponsive in reaction to even a simple ping sweep. Adversaries may also attempt to execute a Permanent Denial-of-Service (PDoS) against certain devices, such as in the case of the BrickerBot malware. (Citation: BrickerBot - ICS-CERT - Alert)\n\nAdversaries may exploit a software vulnerability to cause a denial of service by taking advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code. Vulnerabilities may exist in software that can be used to cause a  or denial of service condition.\n\nAdversaries may have prior knowledge about industrial protocols or control devices used in the environment through <span class=\"smw-format list-format \"><span class=\"smw-row\"><span class=\"smw-field\"><span class=\"smw-value\">Control Device Identification</span></span></span></span>. There are examples of adversaries remotely causing a <span class=\"smw-format list-format \"><span class=\"smw-row\"><span class=\"smw-field\"><span class=\"smw-value\">Device Restart/Shutdown</span></span></span></span> by exploiting a vulnerability that induces uncontrolled resource consumption. (Citation: Industroyer - ICS-CERT ADV) (Citation: Industroyer - CWE-400) (Citation: Industroyer - CVE-2015-5374)\n\nIn the Maroochy attack, the adversary was able to shut an investigator out of the network. (Citation: Maroochy - MITRE - 200808)",
+            "name": "Туннелирование трафика передачи данных через VPN",
+            "description": "Туннелирование трафика передачи данных через VPN.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -607,7 +648,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T814",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0814"
+                    "external_id": "T9.8"
                 },
                 {
                     "description": "ICS-CERT. (2017, April 18). CS Alert (ICS-ALERT-17-102-01A) BrickerBot Permanent Denial-of-Service Attack. Retrieved October 24, 2019.",
@@ -764,8 +805,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Device Restart/Shutdown",
-            "description": "Adversaries may forcibly restart or shutdown a device in the ICS environment to disrupt and potentially cause adverse effects on the physical processes it helps to control. Methods of device restart and shutdown exist as built-in, standard functionalities. This can include interactive device web interfaces, CLIs, and network protocol commands, among others. Device restart or shutdown may also occur as a consequence of changing a device into an alternative mode of operation for testing or firmware loading.\n\nUnexpected restart or shutdown of control system devices may contribute to impact, by preventing expected response functions from activating and being received in critical states. This can also be a sign of malicious device modification, as many updates require a shutdown in order to take affect. (Citation: Research - Research - Taxonomy Cyber Attacks on SCADA)\n\nFor example, DNP3's function code 0x0D can reset and reconfigure DNP3 outstations by forcing them to perform a complete power cycle. (Citation: Research - Research - Taxonomy Cyber Attacks on SCADA)\n\nIn the 2015 attack on the Ukranian power grid, the adversaries gained access to the control networks of three different energy companies. The adversaries scheduled disconnects for the uniterruptable power supply (UPS) systems so that when power was disconnected from the substations, the devices would shut down and service could not be recovered. (Citation: Ukraine15 - EISAC - 201603)",
+            "name": "Туннелирование трафика управления в поля заполнения и данных служебных протоколов",
+            "description": "Туннелирование трафика управления в поля заполнения и данных служебных протоколов, к примеру, туннелирование трафика управления в поля данных и заполнения протоколов DNS, ICMP или другие.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -780,7 +821,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T816",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0816"
+                    "external_id": "T9.9"
                 },
                 {
                     "description": "Bonnie Zhu, Anthony Joseph, Shankar Sastry. (2011). A Taxonomy of Cyber Attacks on SCADA Systems. Retrieved January 12, 2018.",
@@ -1846,8 +1887,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Manipulate I/O Image",
-            "description": "Adversaries may manipulate the I/O image of PLCs through various means to prevent them from functioning as expected. Methods of I/O image manipulation may include overriding the I/O table via direct memory manipulation or using the override function used for testing PLC programs. (Citation: Guidance - ISA PLC)  \n\nDuring the PLC scan cycle, the state of the actual physical inputs is copied to a portion of the PLC memory, commonly called the input image table. When the program is scanned, it examines the input image table to read the state of a physical input. \n\nWhen the logic determines the state of a physical output, it writes to a portion of the PLC memory commonly called the output image table. The output image may also be examined during the program scan. To update the physical outputs, the output image table contents are copied to the physical outputs after the program is scanned.\n\nOne of the unique characteristics of PLCs is their ability to override the status of a physical discrete input or to override the logic driving a physical output coil and force the output to a desired status.",
+            "name": "Вывод информации через съемные носители",
+            "description": "Вывод информации через съемные носители, в частности, передача данных между скомпрометированными изолированной системой и подключенной к Интернет системой через носители информации, используемые на обеих системах.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -1862,7 +1903,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T835",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0835"
+                    "external_id": "T9.10"
                 },
                 {
                     "description": "Dr. Kelvin T. Erickson. (2010, December). Programmable logic controller hardware. Retrieved March 29, 2018.",
@@ -1995,8 +2036,8 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Modify Alarm Settings",
-            "description": "Adversaries may modify alarm settings to prevent alerts that may inform operators of their presence or to prevent responses to dangerous and unintended scenarios. Reporting messages are a standard part of data acquisition in control systems. Reporting messages are used as a way to transmit system state information and acknowledgements that specific actions have occurred. These messages provide vital information for the management of a physical process, and keep operators, engineers, and administrators aware of the state of system devices and physical processes.\n\nIf an adversary is able to change the reporting settings, certain events could be prevented from being reported. This type of modification can also prevent operators or devices from performing actions to keep the system in a safe state. If critical reporting messages cannot trigger these actions then a Impact could occur.\n\nIn ICS environments, the adversary may have to use <span class=\"smw-format list-format \"><span class=\"smw-row\"><span class=\"smw-field\"><span class=\"smw-value\">Alarm Suppression</span></span></span></span> or contend with multiple alarms and/or alarm propagation to achieve a specific goal to evade detection or prevent intended responses from occurring.  (Citation: References - Secura - 2019) Methods of suppression often rely on modification of alarm settings, such as modifying in memory code to fixed values or tampering with assembly level instruction code.  \n\nIn the Maroochy Attack, the adversary disabled alarms at four pumping stations. This caused alarms to not be reported to the central computer. (Citation: Maroochy - MITRE - 200808)",
+            "name": "Отправка данных через альтернативную среду передачи данных",
+            "description": "Отправка данных через альтернативную среду передачи данных.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -2014,7 +2055,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T838",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0838"
+                    "external_id": "T9.11"
                 },
                 {
                     "description": "Marshall Abrams. (2008, July 23). Malicious Control System Cyber Security Attack Case Study\u2013 Maroochy Water Services, Australia. Retrieved March 27, 2018.",
@@ -2044,13 +2085,9 @@
         },
         {
             "type": "attack-pattern",
-            "name": "Modify Control Logic",
-            "description": "Adversaries may place malicious code in a system, which can cause the system to malfunction by modifying its control logic. Control system devices use programming languages (e.g. relay ladder logic) to control physical processes by affecting actuators, which cause machines to operate, based on environment sensor readings. These devices often include the ability to perform remote control logic updates. \n\nProgram code is normally edited in a vendor-specific Integrated Development Environment (IDE) that relies on proprietary tools and features. These IDEs allow an engineer to perform host target development and may have the ability to run the code on the machine it is programmed for. The IDE will transmit the control logic to the testing device, and will perform the required device-specific functions to apply the changes and make them active.\n\nAn adversary may attempt to use this host target IDE to modify device control logic. Even though proprietary tools are often used to edit and update control logic, the process can usually be reverse-engineered and reproduced with open-source tools.\n\nAn adversary can de-calibrate a sensor by removing functions in control logic that account for sensor error. This can be used to change a control process without actually spoofing command messages to a controller or device. \n\nIt is believed this process happened in the lesser known over-pressurizer attacks build into Stuxnet. Pressure sensors are not perfect at translating pressure into an analog output signal, but their errors can be corrected by calibration. The pressure controller can be told what the \u201creal\u201d pressure is for given analog signals and then automatically linearize the measurement to what would be the \u201creal\u201d pressure. If the linearization is overwritten by malicious code on the S7-417 controller, analog pressure readings will be \u201ccorrected\u201d during the attack by the pressure controller, which then interprets all analog pressure readings as perfectly normal pressure no matter how high or low their analog values are. The pressure controller then acts accordingly by never opening the stage exhaust valves. In the meantime, actual pressure keeps rising. (Citation: Stuxnet - Langner - 201311)\n\nIn the Maroochy Attack, Vitek Boden gained remote computer access to the control system and altered data so that whatever function should have occurred at affected pumping stations did not occur or occurred in a different way. The software program installed in the laptop was one developed by Hunter Watertech for its use in changing configurations in the PDS computers. This ultimately led to 800,000 liters of raw sewage being spilled out into the community. (Citation: Maroochy - MITRE - 200808)",
+            "name": "Шифрование выводимой информации",
+            "description": "Шифрование выводимой информации, использование стеганографии для сокрытия факта вывода информации.",
             "kill_chain_phases": [
-                {
-                    "kill_chain_name": "mitre-ics-attack",
-                    "phase_name": "impair-process-control"
-                },
                 {
                     "kill_chain_name": "mitre-ics-attack",
                     "phase_name": "inhibit-response-function"
@@ -2065,7 +2102,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T833",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0833"
+                    "external_id": "T9.12"
                 },
                 {
                     "description": "Ralph Langner. (2013, November). To Kill a Centrifuge: A Technical Analysis of What Stuxnet's Creators Tried to Achieve. Retrieved March 27, 2018.",
@@ -2092,6 +2129,100 @@
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
             "id": "attack-pattern--e0d74479-86d2-465d-bf36-903ebecef43e"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Вывод информации через предоставление доступа к файловым хранилищам/базам данных",
+            "description": "Вывод информации через предоставление доступа к файловым хранилищам и базам данных в инфраструктуре скомпрометированной системы или сети, в том числе путем создания новых учетных записей или передачи данных для аутентификации и авторизации имеющихся учетных записей.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "inhibit-response-function"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Safety Instrumented System/Protection Relay", 
+                "Field Controller/RTU/PLC/IED"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T833",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T9.13"
+                },
+                {
+                    "description": "Ralph Langner. (2013, November). To Kill a Centrifuge: A Technical Analysis of What Stuxnet's Creators Tried to Achieve. Retrieved March 27, 2018.",
+                    "source_name": "Stuxnet - Langner - 201311",
+                    "url": "https://www.langner.com/wp-content/uploads/2017/03/to-kill-a-centrifuge.pdf"
+                },
+                {
+                    "description": "Marshall Abrams. (2008, July 23). Malicious Control System Cyber Security Attack Case Study\u2013 Maroochy Water Services, Australia. Retrieved March 27, 2018.",
+                    "source_name": "Maroochy - MITRE - 200808",
+                    "url": "https://www.mitre.org/sites/default/files/pdf/08%201145.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-72d5b4802168"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e40b5",
+            "x_mitre_data_sources": [
+                "Sequential event recorder",
+                "Controller program",
+                "Network protocol analysis",
+                "Packet capture"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--e0d74479-86d2-465d-bf36-923ebecef43e"
+        },
+        {
+            "type": "attack-pattern",
+            "name": "Вывод информации путем размещения сообщений или файлов на публичных ресурсах",
+            "description": "Вывод информации путем размещения сообщений или файлов на публичных ресурсах, доступных для анонимного нарушителя (форумы, файлообменные сервисы, фотобанки, облачные сервисы, социальные сети).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-ics-attack",
+                    "phase_name": "inhibit-response-function"
+                }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Safety Instrumented System/Protection Relay", 
+                "Field Controller/RTU/PLC/IED"
+            ],
+            "external_references": [
+                {
+                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T833",
+                    "source_name": "mitre-ics-attack",
+                    "external_id": "T9.14"
+                },
+                {
+                    "description": "Ralph Langner. (2013, November). To Kill a Centrifuge: A Technical Analysis of What Stuxnet's Creators Tried to Achieve. Retrieved March 27, 2018.",
+                    "source_name": "Stuxnet - Langner - 201311",
+                    "url": "https://www.langner.com/wp-content/uploads/2017/03/to-kill-a-centrifuge.pdf"
+                },
+                {
+                    "description": "Marshall Abrams. (2008, July 23). Malicious Control System Cyber Security Attack Case Study\u2013 Maroochy Water Services, Australia. Retrieved March 27, 2018.",
+                    "source_name": "Maroochy - MITRE - 200808",
+                    "url": "https://www.mitre.org/sites/default/files/pdf/08%201145.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-72d5b4802168"
+            ],
+            "created": "2020-05-21T17:43:26.506Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e40b5",
+            "x_mitre_data_sources": [
+                "Sequential event recorder",
+                "Controller program",
+                "Network protocol analysis",
+                "Packet capture"
+            ],
+            "modified": "2020-05-21T17:43:26.506Z",
+            "type": "attack-pattern",
+            "id": "attack-pattern--e0d74479-86d2-465d-bf36-923ebecef43e"
         },
         {
             "type": "attack-pattern",
@@ -16799,8 +16930,8 @@
         },
         {
             "type": "x-mitre-tactic",
-            "name": "Inhibit Response Function",
-            "description": "The adversary is trying to prevent your safety, protection, quality assurance, and operator intervention functions from responding to a failure, hazard, or unsafe state.\n\nInhibit Response Function consists of techniques that adversaries use to hinder the safeguards put in place for processes and products. This may involve the inhibition of safety, protection, quality assurance, or operator intervention functions to disrupt safeguards that aim to prevent the loss of life, destruction of equipment, and disruption of production. These techniques aim to actively deter and prevent expected alarms and responses that arise due to statuses in the ICS environment. Adversaries may modify or update system logic, or even outright prevent responses with a denial-of-service. They may result in the prevention, destruction, manipulation, or modification of programs, logic, devices, and communications. As prevention functions are generally dormant, reporting and processing functions can appear fine, but may have been altered to prevent failure responses in dangerous scenarios. Unlike [Evasion](https://collaborate.mitre.org/attackics/index.php/Evasion), Inhibit Response Function techniques may be more intrusive, such as actively preventing responses to a known dangerous scenario. Adversaries may use these techniques to follow through with or provide cover for [Impact](https://collaborate.mitre.org/attackics/index.php/Impact) techniques.",
+            "name": "Сбор и вывод из системы или сети информации",
+            "description": "В ходе реализации угроз безопасности информации, нарушителю может потребоваться получить и вывести за пределы инфраструктуры большие объемы информации, избежав при этом обнаружения или противодействия.",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17T00:14:20.652Z",
             "id": "x-mitre-tactic--298fe907-7931-4fd2-8131-2814dd493134",
@@ -16813,7 +16944,7 @@
                 {
                     "source_name": "mitre-ics-attack",
                     "url": "https://collaborate.mitre.org/attackics/index.php/Inhibit_Response_Function",
-                    "external_id": "TA0107"
+                    "external_id": "T9"
                 }
             ]
         },
