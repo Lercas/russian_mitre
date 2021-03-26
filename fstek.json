@@ -799,7 +799,7 @@
         {
             "type": "attack-pattern",
             "name": "Сбор информации о подключенных к публичным системам и сетям устройствах и их службах при помощи поисковых систем",
-            "description": "включая сбор конфигурационной информации компонентов систем и сетей, программного обеспечения сервисов и приложений.Пример: использование поисковой системы Shodan для получения информации об определенных моделях IP-камер видеонаблюдения с возможно уязвимыми версиями прошивок.",
+            "description": "Включая сбор конфигурационной информации компонентов систем и сетей, программного обеспечения сервисов и приложений.Пример: использование поисковой системы Shodan для получения информации об определенных моделях IP-камер видеонаблюдения с возможно уязвимыми версиями прошивок.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -813,7 +813,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T817",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T1.2"
+                    "external_id": "T1.3"
                 },
                 {
                     "description": "NCAS. (2018, March 15). Alert (TA18-074A) Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved October 11, 2019.",
@@ -1489,7 +1489,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T883",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0883"
+                    "external_id": "T1.5"
                 },
                 {
                     "description": "NCCIC. (2014, January 1). Internet Accessible Control Systems At Risk. Retrieved November 7, 2019.",
@@ -2157,10 +2157,10 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-72d5b4802168"
+                "marking-definition--fa42a846-8d90-4e51-bc29-72d5t4802168"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8b55e40b5",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d2b8t55e40b5",
             "x_mitre_data_sources": [
                 "Sequential event recorder",
                 "Controller program",
@@ -2169,7 +2169,7 @@
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--e0d74479-86d2-465d-bf36-923ebecef43e"
+            "id": "attack-pattern--e0d74479-86d2-465d-bf36-923ebetef43e"
         },
         {
             "type": "attack-pattern",
@@ -2933,7 +2933,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T847",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T0847"
+                    "external_id": "T1.6"
                 },
                 {
                     "description": "Kernkraftwerk Gundremmingen. (2016, April 25). Detektion von B\u00fcro-Schadsoftware an mehreren Rechnern. Retrieved October 14, 2019.",
@@ -4490,7 +4490,7 @@
         
             "type": "attack-pattern",
             "name": "Пассивный сбор и анализ данных телеметрии для получения информации",
-            "description": "1111Пассивный  сбор и анализ данных телеметрии для получения информации о технологическом процессе, технологических установках, системах и ПО на предприятиях в  автоматизированных  системах  управления  производственными  и  технологическими процессами, в том числе на критически важных объектах.",
+            "description": "Пассивный  сбор и анализ данных телеметрии для получения информации о технологическом процессе, технологических установках, системах и ПО на предприятиях в  автоматизированных  системах  управления  производственными  и  технологическими процессами, в том числе на критически важных объектах.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-ics-attack",
@@ -5697,16 +5697,16 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e52-bc29-71d9t2802364"
+                "marking-definition--fa42a846-8d90-4e52-bc29-72d9t2802369"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4612-8297-d2b9b55e43b9",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4612-8297-d2b3b55e43b1",
             "x_mitre_data_sources": [
                 "Process monitoring"
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--cd2c76a4-5e23-4ca5-9c41-d2e9104f7303"
+            "id": "attack-pattern--cd2c76a4-5e23-4ca5-9c41-d2e9104f7312"
         },
         {
             "type": "attack-pattern",
@@ -6031,7 +6031,7 @@
                 {
                     "source_name": "mitre-ics-attack",
                     "url": "https://collaborate.mitre.org/attackics/index.php/Execution",
-                    "external_id": "TA0104"
+                    "external_id": "T2"
                 }
             ]
         },
@@ -6051,7 +6051,7 @@
                 {
                     "source_name": "mitre-ics-attack",
                     "url": "https://collaborate.mitre.org/attackics/index.php/Impact",
-                    "external_id": "TA0105"
+                    "external_id": "T10"
                 }
             ]
         },
@@ -6091,7 +6091,7 @@
                 {
                     "source_name": "mitre-ics-attack",
                     "url": "https://collaborate.mitre.org/attackics/index.php/Initial_Access",
-                    "external_id": "TA0108"
+                    "external_id": "T1"
                 }
             ]
         },
@@ -6111,7 +6111,7 @@
                 {
                     "source_name": "mitre-ics-attack",
                     "url": "https://collaborate.mitre.org/attackics/index.php/Lateral_Movement",
-                    "external_id": "TA0109"
+                    "external_id": "T8"
                 }
             ]
         },
