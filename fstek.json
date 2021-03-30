@@ -5654,7 +5654,7 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e52-bc29-72d9t2802369"
+                "marking-definition--fa42a846-8d90-4e52-bc29-72d9q2807669"
             ],
             "created": "2020-05-21T17:43:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4612-8297-d2b3b55e43b1",
@@ -5663,7 +5663,7 @@
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--cd2c76a4-5e23-4ca5-9c41-d2e9104f7312"
+            "id": "attack-pattern--cd2c76a4-5e23-54a5-9c41-d2e9104f7312"
         },
         {
             "type": "attack-pattern",
