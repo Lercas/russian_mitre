@@ -6141,13 +6141,13 @@
                 "Lyceum"
             ],
             "type": "intrusion-set",
-            "name": "HEXANE",
+            "name": "УБИ.03",
             "description": "[HEXANE](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
             "external_references": [
                 {
-                    "external_id": "G1001",
+                    "external_id": "UBI03",
                     "source_name": "mitre-ics-attack",
-                    "url": "https://collaborate.mitre.org/attackics/index.php/Group/G0005"
+                    "url": "https://bdu.fstec.ru/threat/ubi.003"
                 },
                 {
                     "description": "(Citation: Dragos Hexane Oct 2019)",
@@ -6180,7 +6180,7 @@
         {
             "type": "relationship",
             "target_ref": "attack-pattern--648f995e-9c3a-41e4-aeee-98bb41037426",
-            "description": "[HEXANE](https://collaborate.mitre.org/attackics/index.php/Group/G0005) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "description": "[HEXANE](https://bdu.fstec.ru/threat/ubi.003) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17T00:14:20.652Z",
             "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
@@ -6193,7 +6193,7 @@
                 {
                     "source_name": "Dragos Hexane",
                     "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
-                    "url": "https://dragos.com/resource/hexane/"
+                    "url": "https://bdu.fstec.ru/threat/ubi.003/"
                 }
             ],
             "relationship_type": "uses"
