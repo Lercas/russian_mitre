@@ -4443,10 +4443,10 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--56784654123q386"
+                "marking-definition--567846541q3q386"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--12342300013",
+            "created_by_ref": "identity--12342301013",
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
             "id": "attack-pattern--609876515434765qwerewq"
