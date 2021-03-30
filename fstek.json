@@ -5738,16 +5738,16 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e52-bd29-81d9p2802364"
+                "marking-definition--fa42a846-8d90-4e52-bd29-89d9p2802364"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cd6e5-0c7d-4612-8297-d2b9y55e43b9",
+            "created_by_ref": "identity--c78cd6e5-0c7d-4612-8997-d2b9y55e43b9",
             "x_mitre_data_sources": [
                 "Process monitoring"
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--cd2c76a4-5d23-4ca5-9c41-d8e9104z7303"
+            "id": "attack-pattern--cd2c76a4-5d23-4ca5-9c49-d9e9104z7303"
         },
         {
             "type": "attack-pattern",
