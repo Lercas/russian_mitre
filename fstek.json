@@ -6144,7 +6144,7 @@
         },
         {
             "type": "relationship",
-            "target_ref": "attack-pattern--q098765-15434265qwerewq",
+            "target_ref": "attack-pattern--609876515434765qwerewq",
             "description": "[HEXANE](https://bdu.fstec.ru/threat/ubi.003) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17T00:14:20.652Z",
