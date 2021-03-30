@@ -6200,7 +6200,7 @@
         },
         {
             "type": "relationship",
-            "target_ref": "attack-pattern--e076cca8-2f08-45c9-aff7-ea5ac798b387",
+            "target_ref": "attack-pattern--56ddc820-6cfb-407f-850b-52c035d123ac",
             "description": "[HEXANE](https://collaborate.mitre.org/attackics/index.php/Group/G0005) communicated with command and control over HTTP and DNS.(Citation: Dragos Hexane)",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17T00:14:20.652Z",
@@ -6263,7 +6263,7 @@
         },
         {
             "type": "relationship",
-            "target_ref": "attack-pattern--2dc2b567-8821-49f9-9045-8740f3d0b958",
+            "target_ref": "attack-pattern--e72425f8-9ae6-41d3-bfdb-e1b865e60722",
             "description": "[HEXANE](https://collaborate.mitre.org/attackics/index.php/Group/G0005) utilizes VBA macros and Powershell scripts such as DanDrop and kl.ps1 tools.(Citation: SecurityWeek Hexane Aug 2019)(Citation: BankInfoSecurity Lyceum Aug 2019)",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17T00:14:20.652Z",
