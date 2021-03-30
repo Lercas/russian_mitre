@@ -231,7 +231,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T804",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T9.4"
+                    "external_id": "T9.6"
                 },
                 {
                     "description": "Bonnie Zhu, Anthony Joseph, Shankar Sastry. (2011). A Taxonomy of Cyber Attacks on SCADA Systems. Retrieved January 12, 2018.",
@@ -245,10 +245,10 @@
                 }
             ],
             "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+                "marking-definition--fa42a846-8d90-4e51-bc29-91d5b4802168"
             ],
             "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b59e40b5",
             "x_mitre_data_sources": [
                 "Alarm History",
                 "Data historian",
@@ -257,7 +257,7 @@
             ],
             "modified": "2020-05-21T17:43:26.506Z",
             "type": "attack-pattern",
-            "id": "attack-pattern--3f1f4ccb-9be2-4ff8-8f69-dd972221169b"
+            "id": "attack-pattern--3f1f4ccb-9be2-4ff8-8f69-dd972221969b"
         },
         {
             "type": "attack-pattern",
@@ -2976,56 +2976,6 @@
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T847",
                     "source_name": "mitre-ics-attack",
                     "external_id": "T1.6"
-                },
-                {
-                    "description": "Kernkraftwerk Gundremmingen. (2016, April 25). Detektion von B\u00fcro-Schadsoftware an mehreren Rechnern. Retrieved October 14, 2019.",
-                    "source_name": "KGG-Company-Site",
-                    "url": "https://www.kkw-gundremmingen.de/presse.php?id=571"
-                },
-                {
-                    "description": "Catalin Cimpanu. (2016, April 26). Malware Shuts Down German Nuclear Power Plant on Chernobyl's 30th Anniversary. Retrieved October 14, 2019.",
-                    "source_name": "KGG-Softpedia",
-                    "url": "https://news.softpedia.com/news/on-chernobyl-s-30th-anniversary-malware-shuts-down-german-nuclear-power-plant-503429.shtml"
-                },
-                {
-                    "description": "Christoph Steitz, Eric Auchard. (2016, April 26). German nuclear plant infected with computer viruses, operator says. Retrieved October 14, 2019.",
-                    "source_name": "KGG-Reuters",
-                    "url": "https://www.reuters.com/article/us-nuclearpower-cyber-germany/german-nuclear-plant-infected-with-computer-viruses-operator-says-idUSKCN0XN2OS"
-                },
-                {
-                    "description": "Peter Dockrill. (2016, April 28). Multiple Computer Viruses Have Been Discovered in This German Nuclear Plant. Retrieved October 14, 2019.",
-                    "source_name": "KGG-Science-Alert",
-                    "url": "https://www.sciencealert.com/multiple-computer-viruses-have-been-discovered-in-this-german-nuclear-plant"
-                },
-                {
-                    "description": "ESET. (2016, April 28). Malware found at a German nuclear power plant. Retrieved October 14, 2019.",
-                    "source_name": "KGG-ESET",
-                    "url": "https://www.welivesecurity.com/2016/04/28/malware-found-german-nuclear-power-plant/"
-                },
-                {
-                    "description": "Lee Mathews. (2016, April 27). German nuclear plant found riddled with Conficker, other viruses. Retrieved October 14, 2019.",
-                    "source_name": "KGG-Geek",
-                    "url": "https://www.geek.com/apps/german-nuclear-plant-found-riddled-with-conficker-other-viruses-1653415/"
-                },
-                {
-                    "description": "Trend Micro. (2016, April 27). Malware Discovered in German Nuclear Power Plant. Retrieved October 14, 2019.",
-                    "source_name": "KGG-Trend Micro",
-                    "url": "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/malware-discovered-in-german-nuclear-power-plant"
-                },
-                {
-                    "description": "BBC. (2016, April 28). German nuclear plant hit by computer viruses. Retrieved October 14, 2019.",
-                    "source_name": "KGG-BBC",
-                    "url": "https://www.bbc.com/news/technology-36158606"
-                },
-                {
-                    "description": "Sean Gallagher. (2016, April 27). German nuclear plant\u2019s fuel rod system swarming with old malware. Retrieved October 14, 2019.",
-                    "source_name": "KGG-Ars",
-                    "url": "https://arstechnica.com/information-technology/2016/04/german-nuclear-plants-fuel-rod-system-swarming-with-old-malware/"
-                },
-                {
-                    "description": "Dark Reading Staff. (2016, April 28). German Nuclear Power Plant Infected With Malware. Retrieved October 14, 2019.",
-                    "source_name": "KGG-Dark",
-                    "url": "https://www.darkreading.com/endpoint/german-nuclear-power-plant-infected-with-malware/d/d-id/1325298"
                 }
             ],
             "object_marking_refs": [
@@ -6239,6 +6189,74 @@
             "x_mitre_version": "1.1"
         },
         {
+            "aliases": [
+                "HEXANE",
+                "Lyceum"
+            ],
+            "type": "intrusion-set",
+            "name": "УБИ.009",
+            "description": "[ubi007](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
+            "external_references": [
+                {
+                    "external_id": "UBI009",
+                    "source_name": "mitre-ics-attack",
+                    "url": "https://bdu.fstec.ru/threat/ubi.009"
+                }
+            ],
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b6",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f1984fafae3",
+            "modified": "2020-01-05T20:13:49.069Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_version": "1.1"
+        },
+        {
+            "aliases": [
+                "HEXANE"
+            ],
+            "type": "intrusion-set",
+            "name": "УБИ.012",
+            "description": "[ubi012](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
+            "external_references": [
+                {
+                    "external_id": "UBI012",
+                    "source_name": "mitre-ics-attack",
+                    "url": "https://bdu.fstec.ru/threat/ubi.012"
+                }
+            ],
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b6",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f1984fafae4",
+            "modified": "2020-01-05T20:13:49.069Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_version": "1.1"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--609876515434765qwerewq",
+            "description": "[ubi012](https://bdu.fstec.ru/threat/ubi.006) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.012/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
             "type": "relationship",
             "target_ref": "attack-pattern--609876515434765qwerewq",
             "description": "[ubi007](https://bdu.fstec.ru/threat/ubi.006) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
@@ -6255,6 +6273,132 @@
                     "source_name": "Dragos Hexane",
                     "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
                     "url": "https://bdu.fstec.ru/threat/ubi.006/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--c267bbee-bb59-47fe-85e0-3ed210337c21",
+            "description": "[ubi008](https://bdu.fstec.ru/threat/ubi.008) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f1984fafae3",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.009/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--c267bbee-bb59-47fe-85e0-3ed210337c21",
+            "description": "[ubi012](https://bdu.fstec.ru/threat/ubi.012) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.009/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b0628bfc-5376-4a38-9182-f322111b4cf",
+            "description": "[ubi012](https://bdu.fstec.ru/threat/ubi.012) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.009/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--56ddc820-6cfb-407f-850b-52c035d123ac",
+            "description": "[ubi012](https://bdu.fstec.ru/threat/ubi.012) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.009/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--e72425f8-9ae6-41d3-bfdb-e1b865e60722",
+            "description": "[ubi007](https://bdu.fstec.ru/threat/ubi.009) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f1984fafae3",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.009/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--56ddc820-6cfb-407f-850b-52c035d123ac",
+            "description": "[ubi007](https://bdu.fstec.ru/threat/ubi.009) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f1984fafae3",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.009/"
                 }
             ],
             "relationship_type": "uses"
