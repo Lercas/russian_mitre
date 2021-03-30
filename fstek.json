@@ -4454,41 +4454,6 @@
         {
         
             "type": "attack-pattern",
-            "name": "Пассивный  сбор  и  анализ  данных  телеметрии  для  получения  информации",
-            "description": "Пассивный  сбор  и  анализ  данных  телеметрии  для  получения  информации о технологическом процессе, технологических установках, системах и ПО на предприятиях в  автоматизированных  системах  управления  производственными  и  технологическими процессами, в том числе на критически важных объектах.",
-            "kill_chain_phases": [
-                {
-                    "kill_chain_name": "mitre-ics-attack",
-                    "phase_name": "initial-access-ics"
-                }
-            ],
-            "x_mitre_platforms": [
-                "Windows"
-            ],
-            "external_references": [
-                {
-                    "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T865",
-                    "source_name": "mitre-ics-attack",
-                    "external_id": "T1.16"
-                },
-                {
-                    "description": "Enterprise ATT&CK. (2019, October 25). Spearphishing Attachment. Retrieved October 25, 2019.",
-                    "source_name": "EAttack Spearphishing Attachment",
-                    "url": "https://attack.mitre.org/techniques/T1193/"
-                }
-            ],
-            "object_marking_refs": [
-                "marking-definition--56784690123q386"
-            ],
-            "created": "2020-05-21T17:43:26.506Z",
-            "created_by_ref": "identity--123p42351p3",
-            "modified": "2020-05-21T17:43:26.506Z",
-            "type": "attack-pattern",
-            "id": "attack-pattern--q098765-15434265qwerewq"
-        },
-        {
-        
-            "type": "attack-pattern",
             "name": "Пассивный сбор и анализ данных телеметрии для получения информации",
             "description": "Пассивный  сбор и анализ данных телеметрии для получения информации о технологическом процессе, технологических установках, системах и ПО на предприятиях в  автоматизированных  системах  управления  производственными  и  технологическими процессами, в том числе на критически важных объектах.",
             "kill_chain_phases": [
