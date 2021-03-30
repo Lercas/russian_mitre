@@ -6178,6 +6178,142 @@
             "x_mitre_version": "1.1"
         },
         {
+            "type": "relationship",
+            "target_ref": "attack-pattern--648f995e-9c3a-41e4-aeee-98bb41037426",
+            "description": "[HEXANE](https://collaborate.mitre.org/attackics/index.php/Group/G0005) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://dragos.com/resource/hexane/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--e076cca8-2f08-45c9-aff7-ea5ac798b387",
+            "description": "[HEXANE](https://collaborate.mitre.org/attackics/index.php/Group/G0005) communicated with command and control over HTTP and DNS.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--5d4b3eb8-5ed5-43ca-ac71-42f4a461b435",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://dragos.com/resource/hexane/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--cd2c76a4-5e23-4ca5-9c40-d5e0604f7101",
+            "description": "[HEXANE](https://collaborate.mitre.org/attackics/index.php/Group/G0005) has used valid IT accounts to extend their spearphishing campaign within an organization.(Citation: SecureWorks LYCEUM Aug 2019)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--1dfe3095-7c2e-4eba-ac4d-f9206b5ab7ad",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "SecureWorks LYCEUM Aug 2019",
+                    "description": "SecureWorks. (2019, August 27). LYCEUM Takes Center Stage in Middle East Campaign. Retrieved November 19, 2019.",
+                    "url": "https://www.secureworks.com/blog/lyceum-takes-center-stage-in-middle-east-campaign"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--9a505987-ab05-4f46-a9a6-6441442eec3b",
+            "description": "[HEXANE](https://collaborate.mitre.org/attackics/index.php/Group/G0005) targeted telecommunication providers in the greater Middle East, Central Asia, and Africa, potentially as a stepping stone to network-focused man-in-the-middle and related attacks.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--9887bb6b-3dce-4553-99cb-e901997b3e4c",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://dragos.com/resource/hexane/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--2dc2b567-8821-49f9-9045-8740f3d0b958",
+            "description": "[HEXANE](https://collaborate.mitre.org/attackics/index.php/Group/G0005) utilizes VBA macros and Powershell scripts such as DanDrop and kl.ps1 tools.(Citation: SecurityWeek Hexane Aug 2019)(Citation: BankInfoSecurity Lyceum Aug 2019)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--92865095-f63e-461c-9e32-e202d514747d",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "SecurityWeek Hexane Aug 2019",
+                    "description": "Ionut Arghire. (2019, August 28). Researchers Analyze Tools Used by 'Hexane' Attackers Against Industrial Firms. Retrieved January 3, 2020.",
+                    "url": "https://www.securityweek.com/researchers-analyze-tools-used-hexane-attackers-against-industrial-firms"
+                },
+                {
+                    "source_name": "BankInfoSecurity Lyceum Aug 2019",
+                    "description": "Jeffery Burt. (2019, August 30). Lyceum APT Group a Fresh Threat to Oil and Gas Companies. Retrieved January 3, 2020.",
+                    "url": "https://www.bankinfosecurity.com/lyceum-apt-group-new-threat-to-oil-gas-companies-a-13003"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--648f995e-9c3a-41e4-aeee-98bb41037426",
+            "description": "[Lazarus Group](https://collaborate.mitre.org/attackics/index.php/Group/G0008) has been observed targeting organizations using spearphishing documents with embedded malicious payloads.(Citation: Novetta Blockbuster) Highly targeted spear phishing campaigns have been conducted against a U.S. electric grid company.(Citation: Dragos Mar 2018)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "id": "relationship--31bf1721-78a2-4b6c-b325-5c44dc02ea33",
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "modified": "2020-01-05T19:15:44.537Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Novetta Blockbuster",
+                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.",
+                    "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf"
+                },
+                {
+                    "source_name": "Dragos Mar 2018",
+                    "description": "Eduard Kovacs. (2018, March 1). Five Threat Groups Target Industrial Systems: Dragos. Retrieved January 3, 2020.",
+                    "url": "https://www.securityweek.com/five-threat-groups-target-industrial-systems-dragos"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
             "type": "x-mitre-matrix",
             "name": "ATT&CK for ICS",
             "description": "The full ATT&CK for ICS Matrix includes techniques spanning various ICS assets and can be used to navigate through the knowledge base.",
