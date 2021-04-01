@@ -398,7 +398,7 @@
                 {
                     "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T809",
                     "source_name": "mitre-ics-attack",
-                    "external_id": "T9.6"
+                    "external_id": "T9.7"
                 },
                 {
                     "description": "Enterprise ATT&CK. (2018, January 11). File Deletion. Retrieved May 17, 2018.",
@@ -7148,6 +7148,198 @@
             "x_mitre_version": "1.1"
         },
         {
+            "aliases": [
+                "HEXANE",
+                "Lyceum"
+            ],
+            "type": "intrusion-set",
+            "name": "УБИ.058",
+            "description": "[ubi058](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
+            "external_references": [
+                {
+                    "external_id": "UBI058",
+                    "source_name": "mitre-ics-attack",
+                    "url": "https://bdu.fstec.ru/threat/ubi.58"
+                }
+            ],
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b9",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae5",
+            "modified": "2020-01-05T20:13:49.069Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_version": "1.1"
+        },
+        {
+            "aliases": [
+                "HEXANE",
+                "Lyceum"
+            ],
+            "type": "intrusion-set",
+            "name": "УБИ.059",
+            "description": "[ubi059](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
+            "external_references": [
+                {
+                    "external_id": "UBI059",
+                    "source_name": "mitre-ics-attack",
+                    "url": "https://bdu.fstec.ru/threat/ubi.59"
+                }
+            ],
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b9",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae6",
+            "modified": "2020-01-05T20:13:49.069Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_version": "1.1"
+        },
+        {
+            "aliases": [
+                "HEXANE",
+                "Lyceum"
+            ],
+            "type": "intrusion-set",
+            "name": "УБИ.061",
+            "description": "[ubi061](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
+            "external_references": [
+                {
+                    "external_id": "UBI061",
+                    "source_name": "mitre-ics-attack",
+                    "url": "https://bdu.fstec.ru/threat/ubi.61"
+                }
+            ],
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b9",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae7",
+            "modified": "2020-01-05T20:13:49.069Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_version": "1.1"
+        },
+        {
+            "aliases": [
+                "HEXANE",
+                "Lyceum"
+            ],
+            "type": "intrusion-set",
+            "name": "УБИ.062",
+            "description": "[ubi062](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
+            "external_references": [
+                {
+                    "external_id": "UBI062",
+                    "source_name": "mitre-ics-attack",
+                    "url": "https://bdu.fstec.ru/threat/ubi.62"
+                }
+            ],
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b9",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae8",
+            "modified": "2020-01-05T20:13:49.069Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_version": "1.1"
+        },
+        {
+            "aliases": [
+                "HEXANE",
+                "Lyceum"
+            ],
+            "type": "intrusion-set",
+            "name": "УБИ.063",
+            "description": "[ubi063](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
+            "external_references": [
+                {
+                    "external_id": "UBI063",
+                    "source_name": "mitre-ics-attack",
+                    "url": "https://bdu.fstec.ru/threat/ubi.63"
+                }
+            ],
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b9",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae9",
+            "modified": "2020-01-05T20:13:49.069Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_version": "1.1"
+        },
+        {
+            "aliases": [
+                "HEXANE",
+                "Lyceum"
+            ],
+            "type": "intrusion-set",
+            "name": "УБИ.064",
+            "description": "[ubi064](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
+            "external_references": [
+                {
+                    "external_id": "UBI064",
+                    "source_name": "mitre-ics-attack",
+                    "url": "https://bdu.fstec.ru/threat/ubi.64"
+                }
+            ],
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b9",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae0",
+            "modified": "2020-01-05T20:13:49.069Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_version": "1.1"
+        },
+        {
+            "aliases": [
+                "HEXANE",
+                "Lyceum"
+            ],
+            "type": "intrusion-set",
+            "name": "УБИ.065",
+            "description": "[ubi065](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
+            "external_references": [
+                {
+                    "external_id": "UBI065",
+                    "source_name": "mitre-ics-attack",
+                    "url": "https://bdu.fstec.ru/threat/ubi.65"
+                }
+            ],
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b9",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae1",
+            "modified": "2020-01-05T20:13:49.069Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_version": "1.1"
+        },
+        {
+            "aliases": [
+                "HEXANE",
+                "Lyceum"
+            ],
+            "type": "intrusion-set",
+            "name": "УБИ.066",
+            "description": "[ubi066](https://collaborate.mitre.org/attackics/index.php/Group/G0005) is a threat group that has targeted ICS organization within the oil & gas, and telecommunications sectors. Many of the targeted organizations have been located in the Middle East including Kuwait. HEXANE's targeting of telecommunications has been speculated to be part of an effort to establish man-in-the-middle capabilities throughout the region. HEXANE's TTPs appear similar to [APT33](https://collaborate.mitre.org/attackics/index.php/Group/G0003) and [OilRig](https://collaborate.mitre.org/attackics/index.php/Group/G0010) but due to differences in victims and tools it is tracked as a separate entity. (Citation: Dragos Hexane Oct 2019)",
+            "external_references": [
+                {
+                    "external_id": "UBI066",
+                    "source_name": "mitre-ics-attack",
+                    "url": "https://bdu.fstec.ru/threat/ubi.66"
+                }
+            ],
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b9",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae2",
+            "modified": "2020-01-05T20:13:49.069Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_version": "1.1"
+        },
+        {
             "type": "relationship",
             "target_ref": "attack-pattern--609876515434765qwerewq",
             "description": "[ubi023](https://bdu.fstec.ru/threat/ubi.023) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
@@ -9247,7 +9439,1182 @@
             ],
             "relationship_type": "uses"
         },
-
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--50d3222f-7550-4a3c-94e1-78cb6c81d064",
+            "description": "[ubi056](https://bdu.fstec.ru/threat/ubi.056) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.056/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--7830cfcf-b268-4ac0-a69e-73c6qffbae3a",
+            "description": "[ubi056](https://bdu.fstec.ru/threat/ubi.056) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.056/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--32632a95-6856-47b9-9ab7-fea5cd7dce00",
+            "description": "[ubi056](https://bdu.fstec.ru/threat/ubi.056) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.056/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ae62fe1a-ea1a-479b-8dc0-65d250bd8bc7",
+            "description": "[ubi056](https://bdu.fstec.ru/threat/ubi.056) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.056/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ead7bd34-186e-4c79-9a4d-b65bcce6ed9d",
+            "description": "[ubi056](https://bdu.fstec.ru/threat/ubi.056) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.056/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--e33c7ecc-5a38-497f-beb2-a9a2049a4c20",
+            "description": "[ubi056](https://bdu.fstec.ru/threat/ubi.056) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.056/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--138979ba-0430-4de6-a128-2fc0b056ba36",
+            "description": "[ubi056](https://bdu.fstec.ru/threat/ubi.056) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.056/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d855d54",
+            "description": "[ubi056](https://bdu.fstec.ru/threat/ubi.056) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae4",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.056/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--32632a95-6856-47b9-9ab7-fea5cd7dce00",
+            "description": "[ubi058](https://bdu.fstec.ru/threat/ubi.058) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae5",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.058/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ae62fe1a-ea1a-479b-8dc0-65d250bd8bc7",
+            "description": "[ubi058](https://bdu.fstec.ru/threat/ubi.058) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae5",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.058/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ead7bd34-186e-4c79-9a4d-b65bcce6ed9d",
+            "description": "[ubi058](https://bdu.fstec.ru/threat/ubi.058) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae5",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.058/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b5b9bacb-97f2-4249-b804-47fd44de1f95",
+            "description": "[ubi058](https://bdu.fstec.ru/threat/ubi.058) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae5",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.058/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d855h54",
+            "description": "[ubi058](https://bdu.fstec.ru/threat/ubi.058) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae5",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.058/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d855d54",
+            "description": "[ubi058](https://bdu.fstec.ru/threat/ubi.058) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae5",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.058/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--32632a95-6856-47b9-9ab7-fea5cd7dce00",
+            "description": "[ubi059](https://bdu.fstec.ru/threat/ubi.059) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae6",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.059/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ae62fe1a-ea1a-479b-8dc0-65d250bd8bc7",
+            "description": "[ubi059](https://bdu.fstec.ru/threat/ubi.059) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae6",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.059/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ead7bd34-186e-4c79-9a4d-b65bcce6ed9d",
+            "description": "[ubi059](https://bdu.fstec.ru/threat/ubi.059) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae6",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.059/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b5b9bacb-97f2-4249-b804-47fd44de1f95",
+            "description": "[ubi059](https://bdu.fstec.ru/threat/ubi.059) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae6",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.059/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d855h54",
+            "description": "[ubi059](https://bdu.fstec.ru/threat/ubi.059) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae6",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.059/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d855d54",
+            "description": "[ubi059](https://bdu.fstec.ru/threat/ubi.059) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae6",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.059/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--32632a95-6856-47b9-9ab7-fea5cd7dce00",
+            "description": "[ubi061](https://bdu.fstec.ru/threat/ubi.061) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae7",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.061/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ae62fe1a-ea1a-479b-8dc0-65d250bd8bc7",
+            "description": "[ubi061](https://bdu.fstec.ru/threat/ubi.061) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae7",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.061/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ead7bd34-186e-4c79-9a4d-b65bcce6ed9d",
+            "description": "[ubi061](https://bdu.fstec.ru/threat/ubi.061) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae7",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.061/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--138979ba-0430-4de6-a128-2fc0b056ba36",
+            "description": "[ubi061](https://bdu.fstec.ru/threat/ubi.061) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae7",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.061/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--50d3222f-7550-4a3c-94e1-78cb6c81d064",
+            "description": "[ubi062](https://bdu.fstec.ru/threat/ubi.062) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae8",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.062/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--7830cfcf-b268-4ac0-a69e-73c6qffbae3a",
+            "description": "[ubi062](https://bdu.fstec.ru/threat/ubi.062) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae8",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.062/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--32632a95-6856-47b9-9ab7-fea5cd7dce00",
+            "description": "[ubi062](https://bdu.fstec.ru/threat/ubi.062) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae8",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.062/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--e72425f8-9ae6-41d3-bfdb-e1b865e60722",
+            "description": "[ubi062](https://bdu.fstec.ru/threat/ubi.062) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae8",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.062/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--5f3da2f3-91c8-4d8b-a02f-bf43a11def15",
+            "description": "[ubi062](https://bdu.fstec.ru/threat/ubi.062) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae8",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.062/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--493832d9-cea6-4b63-abe7-9a65a6473675",
+            "description": "[ubi062](https://bdu.fstec.ru/threat/ubi.062) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae8",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.062/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b5b9bacb-97f2-4249-b804-47fd44de1f95",
+            "description": "[ubi062](https://bdu.fstec.ru/threat/ubi.062) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae8",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.062/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--e33c7ecc-5a38-497f-beb2-a9a2049a4c20",
+            "description": "[ubi062](https://bdu.fstec.ru/threat/ubi.062) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae8",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.062/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--32632a95-6856-47b9-9ab7-fea5cd7dce00",
+            "description": "[ubi063](https://bdu.fstec.ru/threat/ubi.063) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae9",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.063/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--e72425f8-9ae6-41d3-bfdb-e1b865e60722",
+            "description": "[ubi063](https://bdu.fstec.ru/threat/ubi.063) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae9",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.063/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ead7bd34-186e-4c79-9a4d-b65bcce6ed9d",
+            "description": "[ubi063](https://bdu.fstec.ru/threat/ubi.063) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae9",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.063/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--56ddc820-6cfb-407f-850b-52c035d123ac",
+            "description": "[ubi063](https://bdu.fstec.ru/threat/ubi.063) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae9",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.063/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d855h54",
+            "description": "[ubi063](https://bdu.fstec.ru/threat/ubi.063) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae9",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.063/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d855d54",
+            "description": "[ubi063](https://bdu.fstec.ru/threat/ubi.063) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-2f1984fafae9",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.063/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--32632a95-6856-47b9-9ab7-fea5cd7dce00",
+            "description": "[ubi064](https://bdu.fstec.ru/threat/ubi.064) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae0",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.064/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--e72425f8-9ae6-41d3-bfdb-e1b865e60722",
+            "description": "[ubi064](https://bdu.fstec.ru/threat/ubi.064) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae0",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.064/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ead7bd34-186e-4c79-9a4d-b65bcce6ed9d",
+            "description": "[ubi064](https://bdu.fstec.ru/threat/ubi.064) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae0",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.064/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--138979ba-0430-4de6-a128-2fc0b056ba36",
+            "description": "[ubi064](https://bdu.fstec.ru/threat/ubi.064) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae0",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.064/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d855d54",
+            "description": "[ubi064](https://bdu.fstec.ru/threat/ubi.064) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae0",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.064/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--7830cfcf-b268-4ac0-a69e-73c6qffbae3a",
+            "description": "[ubi065](https://bdu.fstec.ru/threat/ubi.065) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae1",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.065/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--32632a95-6856-47b9-9ab7-fea5cd7dce00",
+            "description": "[ubi065](https://bdu.fstec.ru/threat/ubi.065) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae1",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.065/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--b0628bfc-5376-4a38-9182-f322441b4cf",
+            "description": "[ubi065](https://bdu.fstec.ru/threat/ubi.065) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae1",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.065/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ead7bd34-186e-4c79-9a4d-b65bcce6ed9d",
+            "description": "[ubi065](https://bdu.fstec.ru/threat/ubi.065) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae1",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.065/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--e076cca8-2f08-45c9-aff7-ea5ac722b388",
+            "description": "[ubi065](https://bdu.fstec.ru/threat/ubi.065) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae1",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.065/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--56ddc820-6cfb-407f-850b-52c035d123ac",
+            "description": "[ubi065](https://bdu.fstec.ru/threat/ubi.065) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae1",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.065/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--e33c7ecc-5a38-497f-beb2-a9a2049a4c20",
+            "description": "[ubi065](https://bdu.fstec.ru/threat/ubi.065) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae1",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.065/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--7830cfcf-b268-4ac0-a69e-73c6qffbae3a",
+            "description": "[ubi066](https://bdu.fstec.ru/threat/ubi.066) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae2",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.066/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--32632a95-6856-47b9-9ab7-fea5cd7dce00",
+            "description": "[ubi066](https://bdu.fstec.ru/threat/ubi.066) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae2",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.066/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ae62fe1a-ea1a-479b-8dc0-65d250bd8bc7",
+            "description": "[ubi066](https://bdu.fstec.ru/threat/ubi.066) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae2",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.066/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--ae62fe1a-ea1a-479b-8dc0-65d250bd8bc7",
+            "description": "[ubi066](https://bdu.fstec.ru/threat/ubi.066) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae2",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.066/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--19a71d1e-6334-4233-8260-b749cae37953",
+            "description": "[ubi066](https://bdu.fstec.ru/threat/ubi.066) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae2",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.066/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--e33c7ecc-5a38-497f-beb2-a9a2049a4c20",
+            "description": "[ubi066](https://bdu.fstec.ru/threat/ubi.066) has used malicious documents to drop malware and gain access into an environment.(Citation: Dragos Hexane)",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "id": "relationship--052a20b2-6d57-42f6-b3cd-bbc508a0c969",
+            "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-3f1984fafae2",
+            "modified": "2020-01-05T23:38:33.260Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Dragos Hexane",
+                    "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                    "url": "https://bdu.fstec.ru/threat/ubi.066/"
+                }
+            ],
+            "relationship_type": "uses"
+        },
 
 
 
